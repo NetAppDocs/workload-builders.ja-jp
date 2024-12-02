@@ -1,0 +1,28 @@
+---
+sidebar: sidebar 
+permalink: integrate-perforce.html 
+keywords: software builders, integrate, integration, Perforce 
+summary: BuildersとPerforceを統合する方法をご紹介します。 
+---
+= ビルダーとPerforceの統合
+:allow-uri-read: 
+:icons: font
+:imagesdir: ./media/
+
+
+[role="lead"]
+BuildersとPerforce Helix Visual Client (P4V)を統合すると、開発者はPerforce CLIを使用してワークスペースを管理できます。これにより、開発者はプロジェクトとワークスペースをすばやく切り替えることができ、開発中の時間を節約できます。
+
+.手順
+. をダウンロードします https://builders.console.workloads.netapp.com/p4v["P4V統合ファイル"^]。
+. P4Vを開き、* Tools *>* Manage Tools *>* HTML Tabs *に移動します。
+. [HTMLタブのインポート]*を選択します。
+. P4V統合XMLファイルを選択し、*インポート*を選択します。
+. [表示]*>*[ワークロードファクトリ]*の順に選択します。
+
+
+.結果
+Builders Web UIのBlueXP  ワークロードファクトリは、P4Vクライアント内にHTMLタブとして表示されます。
+
+.次の手順
+link:manage-projects.html["移行アドバイザを使用してAmazon EC2導入計画を作成"]です。

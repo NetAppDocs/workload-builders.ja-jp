@@ -1,0 +1,27 @@
+---
+indexpage:
+  title: BlueXP  Workload Factory for Buildersドキュメント
+  lead: BlueXP  ワークロード工場で、FSx for ONTAPファイルシステムストレージ上にソフトウェア開発プロジェクトを作成、管理します。
+  tiles:
+  - title: 開始する
+    links:
+    - title: リリースノート
+      url: "/whats-new.html"
+    - title: ビルダーズの詳細
+      url: "/learn-builders.html"
+    - title: クイックスタート
+      url: "/quick-start-builders.html"
+  - title: ビルダーの使用
+    links:
+    - title: プロジェクトの管理
+      url: "/manage-projects.html"
+    - title: ワークスペースの作成
+      url: "/create-workspaces.html"
+    - title: Codeboxによる自動化
+      url: "/automate-codebox.html"
+  - title: 知識とサポート
+    links:
+    - title: サポートに登録します
+      url: "/support-registration.html"
+    - title: ヘルプを表示します
+      url: "/get-help-builders.html"

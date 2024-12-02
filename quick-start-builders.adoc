@@ -1,0 +1,42 @@
+---
+sidebar: sidebar 
+permalink: quick-start-builders.html 
+keywords: requirements, basic mode, read mode, automate mode 
+summary: データベースには、要件が異なる3つのモードがあります。 
+---
+= ビルダーのクイックスタート
+:allow-uri-read: 
+:icons: font
+:imagesdir: ./media/
+
+
+[role="lead"]
+Buildersプロジェクトの作成を開始します。管理者とチームリーダーは、ビルダーを使用して、開発者チームのプロジェクトとワークスペースを管理できます。
+
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["1つ"]ワークロードファクトリへのログイン
+[role="quick-margin-para"]
+のいずれかを使用してログインする https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["コンソールエクスペリエンス"^]必要があります https://docs.netapp.com/us-en/workload-setup-admin/sign-up-saas.html["ワークロードファクトリでアカウントを設定する"^]。
+
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["2つ"] AWSのクレデンシャルと権限をアカウントに追加する
+[role="quick-margin-para"]
+AWSアカウントにアクセスするためのクレデンシャルを追加することなく、_Basic_modeでワークロードファクトリを使用できます。AWSクレデンシャルを_Read_or_automate_modeでWorkload Factoryに追加すると、FSx for ONTAPファイルシステムの作成と管理、Buildersプロジェクトの導入と管理に必要な権限がWorkload Factoryアカウントに付与されます。
+
+[role="quick-margin-para"]
+https://docs.netapp.com/us-en/workload-setup-admin/add-credentials.html["クレデンシャルと権限を追加する方法"^]です。
+
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png["3つ"]ビルダーの要件を満たすように環境をセットアップする
+[role="quick-margin-para"]
+NFS共有として設定されたボリュームを少なくとも1つ含むFSx for ONTAPファイルシステムが導入および検出されている必要があります。
+
+[role="quick-margin-para"]
+link:requirements-builders.html["ビルダー要件の詳細"^]です。
+
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-4.png["4つ"]他のサービスとの統合
+[role="quick-margin-para"]
+Workload Factory REST APIを使用して、ビルダーをサービスポータルやPerforce Helix Coreなどの他のサービスと統合します。
+
+[role="quick-margin-para"]
+link:integrate-perforce.html["ビルダーとPerforceを統合する方法"^]です。
+
+.次のステップ
+これにより、コードとアーティファクトの迅速かつ効率的な管理を開発チームに提供できるようになりましlink:manage-projects.html["プロジェクトの作成"]た。

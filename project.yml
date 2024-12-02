@@ -1,0 +1,53 @@
+---
+settings:
+  name: Builders workloads
+  platform: cloud
+  internal:
+    pdf_enabled: true
+    termcheck_enabled: true
+  prod:
+    pdf_enabled: true
+    harmony_enabled: false
+  rss_page: whats-new.html
+  release_notes_autogen:
+    release_notes_repo: workload-relnotes
+  langs: ja-jp,us-en,de-de,es-es,fr-fr,it-it,pt-br,ko-kr,zh-cn,zh-tw
+sidebar:
+  entries:
+  - title: ビルダーワークロードに関するドキュメント
+    url: "/index.html"
+  - title: リリースノート
+    entries:
+    - title: 新機能
+      url: "/whats-new.html"
+    - title: 既知の制限事項
+      url: "/known-limitations.html"
+  - title: 開始する
+    entries:
+    - title: ビルダー向けBlueXP  ワークロードファクトリーの詳細
+      url: "/learn-builders.html"
+    - title: クイックスタート
+      url: "/quick-start-builders.html"
+    - title: 要件
+      url: "/requirements-builders.html"
+    - title: ビルダーとPerforceの統合
+      url: "/integrate-perforce.html"
+  - title: ビルダーワークロードの使用
+    entries:
+    - title: プロジェクトの管理
+      url: "/manage-projects.html"
+    - title: ワークスペースの作成
+      url: "/create-workspaces.html"
+    - title: Codeboxによる自動化
+      url: "/automate-codebox.html"
+  - title: 知識とサポート
+    entries:
+    - title: サポートに登録します
+      url: "/support-registration.html"
+    - title: ヘルプを表示します
+      url: "/get-help-builders.html"
+  - title: 法的通知
+    url: "/legal-notices.html"
+product-family:
+  name: BlueXP workload factory for AWS
+  repo: workload-family

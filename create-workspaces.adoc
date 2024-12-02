@@ -1,0 +1,38 @@
+---
+sidebar: sidebar 
+permalink: create-workspaces.html 
+keywords: manage, workspace, snapshot, project 
+summary: BlueXP  Workload Factory for Buildersのワークスペースは、プロジェクトスナップショットに基づくプロジェクトのPerforce表現です。Buildersプロジェクトの一部としてワークスペースを作成できます。 
+---
+= ワークスペースの作成
+:allow-uri-read: 
+:icons: font
+:imagesdir: ./media/
+
+
+[role="lead"]
+BuildersのBlueXP  ワークロードファクトリのワークスペースは、特定の時点におけるプロジェクトをPerforceで表現したものです。ワークスペースは、プロジェクトスナップショットをベースとして作成されます。ビルダープロジェクト内に新しいワークスペースを作成できます。ワークスペースはPerforce UIから作成できます。
+
+.開始する前に
+BuildersとPerforce Helix Visual Clientが統合されていることを確認します。詳細については、を参照してください link:integrate-perforce.html["ビルダーとPerforceの統合"^] 。
+
+.手順
+. Perforceにログインします。
+. Perforceメニューで、*[表示]*>*[WF]を選択します。
++
+Workload Factoryのログイン画面がPerforce UIに表示されます。
+
+. いずれかを使用してワークロードファクトリにログインしlink:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["コンソールエクスペリエンス"^]ます。
+. [ワークスペースの作成]*を選択します。
+. [ワークスペースプロジェクトの作成]ページで、次の項目を指定します。
++
+.. ワークスペースのベースとして使用するスナップショットを選択します。
+.. ワークスペースの名前を入力します。
+.. 必要に応じて、ワークスペースを要求するユーザーIDを入力します。この識別子は、このワークスペースを使用する開発者のPerforceユーザーIDと一致する必要があります。
+
+
+. 「 * Create * 」を選択します。
+
+
+.結果
+ワークスペースが作成され、[ワークスペース]ページのワークスペースのリストに表示されます。

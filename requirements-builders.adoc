@@ -1,0 +1,43 @@
+---
+sidebar: sidebar 
+permalink: requirements-builders.html 
+keywords: Builders, FSx, project, projects 
+summary: BuildersにBlueXP  ワークロードファクトリを使用する前に、ワークロードファクトリとAWSが適切に設定されていることを確認してください。これには、AWSのログインクレデンシャル、導入されたFSx for ONTAPファイルシステムなどが含まれます。 
+---
+= ビルダーの要件
+:allow-uri-read: 
+:icons: font
+:imagesdir: ./media/
+
+
+[role="lead"]
+BuildersにBlueXP  ワークロードファクトリを使用する前に、ワークロードファクトリとAWSが適切に設定されていることを確認してください。これには、AWSのログインクレデンシャル、導入されたFSx for ONTAPファイルシステムなどが含まれます。
+
+ワークロードの工場出荷時のログインとアカウント:: のいずれかを使用してログインする https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["コンソールエクスペリエンス"^]必要があります https://docs.netapp.com/us-en/workload-setup-admin/sign-up-saas.html["ワークロードファクトリでアカウントを設定する"^]。
+AWS のクレデンシャルと権限:: AWSクレデンシャルをAutomate権限でWorkload Factoryに追加する必要があります。つまり、Buildersの_automate_modeでWorkload Factoryを使用することになります。
+
+
+現時点では、_basic_modeおよび_read_mode権限はサポートされていません。https://docs.netapp.com/us-en/workload-setup-admin/add-credentials.html["ワークロードファクトリにAWSクレデンシャルを追加する方法を確認"^]
+
+FSx for ONTAPファイルシステム:: 少なくとも1つのFSx for ONTAPファイルシステムが必要です。
++
+--
+* ファイルシステムは、作成したプロジェクトとワークスペースを保存するためにビルダーによって使用されます。
++
+このFSx for ONTAPファイルシステムでは、FlexVolボリュームを使用する必要があります。FlexGroupボリュームはサポートされません。
+
+* AWS FSx for ONTAPファイルシステムが配置されているAWSリージョン、VPC、サブネットを把握しておく必要があります。
+* 次の構成のファイルシステムに少なくとも1つのボリュームが必要です。
++
+** ボリュームがNFS共有として設定されている必要があります。
+** ファイルシステムにリンクが設定されている必要があります。 https://docs.netapp.com/us-en/workload-fsx-ontap/links-overview.html["リンクの詳細"^]です。
+
+
+* この導入に含まれるAWSリソースに適用するタグのキーと値のペアを検討する必要があります（オプション）。
++
+https://docs.netapp.com/us-en/workload-fsx-ontap/create-file-system.html["FSx for ONTAPファイルシステムの導入と管理の方法をご確認ください"^]
+
+
+
+--
+
