@@ -4,7 +4,7 @@ permalink: create-workspaces.html
 keywords: manage, workspace, snapshot, project 
 summary: BlueXP  Workload Factory for Buildersのワークスペースは、プロジェクトスナップショットに基づくプロジェクトのPerforce表現です。Buildersプロジェクトの一部としてワークスペースを作成できます。 
 ---
-= ワークスペースの作成
+= ビルダーワークスペースの作成
 :allow-uri-read: 
 :icons: font
 :imagesdir: ./media/

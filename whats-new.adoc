@@ -4,7 +4,7 @@ permalink: whats-new.html
 keywords: 'what"s new, features, new, release notes, enhancements, fixes, new features, workload factory, builders, workload factory' 
 summary: データベース向けワークロードファクトリーの最新情報をご確認ください。 
 ---
-= 新機能
+= ビルダー向けBlueXP  ワークロードファクトリーの最新情報
 :allow-uri-read: 
 :icons: font
 :imagesdir: ./media/

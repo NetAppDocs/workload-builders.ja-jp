@@ -4,7 +4,7 @@ permalink: known-limitations.html
 keywords: limitations, builders 
 summary: このリリースの製品でサポートされていない、または正しく相互運用できないプラットフォーム、デバイス、または機能については、既知の制限事項が記載されています。これらの制限事項をよく確認してください。 
 ---
-= 既知の制限事項
+= ビルダー向けBlueXP  ワークロードファクトリーの既知の制限事項
 :allow-uri-read: 
 :icons: font
 :imagesdir: ./media/
