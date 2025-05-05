@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: quick-start-builders.html 
-keywords: requirements, basic mode, read mode, automate mode 
+keywords: requirements, Basic mode, Read-only mode, Read/Write mode 
 summary: データベースには、要件が異なる3つのモードがあります。 
 ---
 = ビルダーのクイックスタート
@@ -19,7 +19,7 @@ Buildersプロジェクトの作成を開始します。管理者とチームリ
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["2つ"] AWSのクレデンシャルと権限をアカウントに追加する
 [role="quick-margin-para"]
-AWSアカウントにアクセスするためのクレデンシャルを追加することなく、_Basic_modeでワークロードファクトリを使用できます。AWSクレデンシャルを_Read_or_automate_modeでWorkload Factoryに追加すると、FSx for ONTAPファイルシステムの作成と管理、Buildersプロジェクトの導入と管理に必要な権限がWorkload Factoryアカウントに付与されます。
+AWSアカウントにアクセスするためのクレデンシャルを追加することなく、_Basic_modeでワークロードファクトリを使用できます。AWSクレデンシャルを_Read-only_or_Read/Write_modeでWorkload Factoryに追加すると、FSx for ONTAPファイルシステムの作成と管理、およびBuildersプロジェクトの導入と管理に必要な権限がWorkload Factoryアカウントに付与されます。
 
 [role="quick-margin-para"]
 https://docs.netapp.com/us-en/workload-setup-admin/add-credentials.html["クレデンシャルと権限を追加する方法"^]です。
