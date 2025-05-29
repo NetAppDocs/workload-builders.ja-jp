@@ -353,4 +353,10 @@
   <block id="98c15024a0a6463353585181f922a6d8" category="list-text">AWSクレデンシャルを読み取り/書き込み権限でワークロードファクトリに追加する必要があります。つまり、Buildersの_読み取り/書き込みモードでワークロードファクトリを使用することになります。</block>
   <block id="19e72e9857cc00ad57d29107d2e5f1fb" category="paragraph">現時点では、_basic_modeおよび_read-only_mode権限はサポートされていません。<block ref="ced1a4827b1ea3c1da0273c3d73fdd46" category="inline-link-rx"></block></block>
   <block id="dac96c84baa92faab0eb342df5283a1b" category="section-title">2025年5月4日</block>
+  <block id="d585a12eb322284819964d656e33d798" category="summary">スナップショットとクローンを作成して、ビルダープロジェクトを保護します。</block>
+  <block id="69b33a7dae155d4aeca7bb5e1abb1cce" category="doc">ビルダーズプロジェクト向けにBlueXP  ワークロード工場を保護</block>
+  <block id="0deec7e6c3ce920634e346d6726ee3dc" category="paragraph">ワークロードファクトリから直接オンデマンドスナップショットを作成して、ビルダープロジェクトを保護します。プロジェクトのスナップショットは、プロジェクトの作成時に関連付けられたファイルシステムに保存されます。</block>
+  <block id="1c88041df602722b072eab90c31d79ca" category="section-title">プロジェクトのスナップショットの作成</block>
+  <block id="1370537941b9a464462bf9a14972eee6" category="paragraph">プロジェクトのスナップショットを作成するには、次の手順を実行します。</block>
+  <block id="a0f77c725888fef07f815b55549ad747" category="sidebar">プロジェクトの保護</block>
 </blocks>
