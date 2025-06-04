@@ -50,7 +50,7 @@ BlueXP  Workload Factory for Buildersには、次の機能があります。
 
 == Workload Factoryの動作モード
 
-_basic_、_read_and _automate_という3つの運用モードでは、ワークロード工場の内外に導入するための柔軟なオプションが提供されます。ワークロードファクトリの外部で使用するコードスニペットを使用して、ゼロトラストのIN_BASIC_MODEですぐに価値を得ることができます。_read_and_automate_modesで増分値を取得します。
+3つの異なる動作モード（_基本_、_読み取り専用_、_読み取り/書き込み_）により、ワークロードファクトリーの内外を問わず、柔軟な導入オプションを提供します。_ワークロードファクトリの外部で使用するコードスニペットを使用して、ゼロトラストのIN_BASIC_MODEですぐに価値を得ることができます。読み取り専用_モードと_読み取り/書き込み_モードでは、信頼性を段階的に高めることで、付加価値を高めることができます。
 
 詳細については、をご覧ください link:https://docs.netapp.com/us-en/workload-setup-admin/operational-modes.html["Workload Factoryの動作モード"^]。
 

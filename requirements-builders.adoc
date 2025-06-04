@@ -14,10 +14,10 @@ summary: BuildersにBlueXP  ワークロードファクトリを使用する前
 BuildersにBlueXP  ワークロードファクトリを使用する前に、ワークロードファクトリとAWSが適切に設定されていることを確認してください。これには、AWSのログインクレデンシャル、導入されたFSx for ONTAPファイルシステムなどが含まれます。
 
 ワークロードの工場出荷時のログインとアカウント:: のいずれかを使用してログインする https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["コンソールエクスペリエンス"^]必要があります https://docs.netapp.com/us-en/workload-setup-admin/sign-up-saas.html["ワークロードファクトリでアカウントを設定する"^]。
-AWS のクレデンシャルと権限:: AWSクレデンシャルを読み取り/書き込み権限でワークロードファクトリに追加する必要があります。つまり、Buildersの_読み取り/書き込みモードでワークロードファクトリを使用することになります。
+AWS のクレデンシャルと権限:: 読み取り/書き込み権限を持つ AWS 認証情報をワークロードファクトリーに追加する必要があります。つまり、ビルダーに対してワークロードファクトリーを _読み取り/書き込み_ モードで使用することになります。
 
 
-現時点では、_basic_modeおよび_read-only_mode権限はサポートされていません。https://docs.netapp.com/us-en/workload-setup-admin/add-credentials.html["ワークロードファクトリにAWSクレデンシャルを追加する方法を確認"^]
+現時点では、_基本_モードと_読み取り専用_モードの権限はサポートされていません。 https://docs.netapp.com/us-en/workload-setup-admin/add-credentials.html["ワークロードファクトリにAWSクレデンシャルを追加する方法を確認"^]
 
 FSx for ONTAPファイルシステム:: 少なくとも1つのFSx for ONTAPファイルシステムが必要です。
 +
