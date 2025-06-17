@@ -36,8 +36,8 @@ sidebar:
     entries:
     - title: プロジェクトの管理
       url: "/manage-projects.html"
-    - title: プロジェクトの保護
-      url: "/protect-projects.html"
+    - title: プロジェクトのバージョンを管理する
+      url: "/version-projects.html"
     - title: ワークスペースの作成
       url: "/create-workspaces.html"
     - title: Codeboxによる自動化

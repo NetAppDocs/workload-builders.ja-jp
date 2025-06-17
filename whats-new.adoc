@@ -15,6 +15,18 @@ Workload FactoryのBuilders機能の最新情報をご確認ください。
 
 
 
+== 2025年6月16日
+
+
+
+=== クローンサポート
+
+BlueXP Workload Factory for Builders でプロジェクトのクローンを作成できるようになりました。プロジェクトのクローンを作成すると、Builders はスナップショットから、元のプロジェクトと同じ構成の新しいプロジェクトを作成します。クローン作成は、類似のプロジェクトを素早く作成したり、テスト目的で使用する場合に便利です。新しいプロジェクトのクローンは、Builders の指示に従ってマウントできます。
+
+https://docs.netapp.com/us-en/workload-builders/version-projects.html["ビルダープロジェクトの BlueXP ワークロード ファクトリーのバージョンを管理する"]
+
+
+
 == 2025年5月4日
 
 

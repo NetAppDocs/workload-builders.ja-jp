@@ -348,15 +348,29 @@
   <block id="ad203e818e0c9d7f42f1c260b33875f3" category="sidebar">クラウドに関する Web セミナー</block>
   <block id="514f1fc0ac0ff6e4200d3637146367f1" category="doc">権限に関する用語を更新</block>
   <block id="dac96c84baa92faab0eb342df5283a1b" category="section-title">2025年5月4日</block>
-  <block id="d585a12eb322284819964d656e33d798" category="summary">スナップショットとクローンを作成して、ビルダープロジェクトを保護します。</block>
-  <block id="69b33a7dae155d4aeca7bb5e1abb1cce" category="doc">ビルダーズプロジェクト向けにBlueXP  ワークロード工場を保護</block>
-  <block id="0deec7e6c3ce920634e346d6726ee3dc" category="paragraph">ワークロードファクトリから直接オンデマンドスナップショットを作成して、ビルダープロジェクトを保護します。プロジェクトのスナップショットは、プロジェクトの作成時に関連付けられたファイルシステムに保存されます。</block>
   <block id="1c88041df602722b072eab90c31d79ca" category="section-title">プロジェクトのスナップショットの作成</block>
   <block id="1370537941b9a464462bf9a14972eee6" category="paragraph">プロジェクトのスナップショットを作成するには、次の手順を実行します。</block>
-  <block id="a0f77c725888fef07f815b55549ad747" category="sidebar">プロジェクトの保護</block>
   <block id="4ead5e435cb4f2c7cf627b1d1e84c333" category="paragraph">ワークロード ファクトリのユーザー インターフェースとドキュメントでは、読み取り権限を示すために「読み取り専用」を使用し、自動化権限を示すために「読み取り/書き込み」を使用するようになりました。</block>
   <block id="9d31d07638cfa37e022a93f50a24a37a" category="paragraph">3つの異なる動作モード（_基本_、_読み取り専用_、_読み取り/書き込み_）により、ワークロードファクトリーの内外を問わず、柔軟な導入オプションを提供します。_ワークロードファクトリの外部で使用するコードスニペットを使用して、ゼロトラストのIN_BASIC_MODEですぐに価値を得ることができます。読み取り専用_モードと_読み取り/書き込み_モードでは、信頼性を段階的に高めることで、付加価値を高めることができます。</block>
   <block id="52170312a0c40a6c39ee9dda5284b4f0" category="paragraph">AWSアカウントにアクセスするためのクレデンシャルを追加することなく、_Basic_modeでワークロードファクトリを使用できます。_読み取り専用_ モードまたは _読み取り/書き込み_ モードのいずれかでワークロードファクトリーに AWS 認証情報を追加すると、ワークロードファクトリーのアカウントに、FSx for ONTAP ファイルシステムの作成と管理、および Builders プロジェクトのデプロイと管理に必要な権限が付与されます。</block>
   <block id="07b92eb27d7b3c0fc0f57b352341acb5" category="list-text">読み取り/書き込み権限を持つ AWS 認証情報をワークロードファクトリーに追加する必要があります。つまり、ビルダーに対してワークロードファクトリーを _読み取り/書き込み_ モードで使用することになります。</block>
   <block id="5e80379093f27293f5ebbde3a13ddc71" category="paragraph">現時点では、_基本_モードと_読み取り専用_モードの権限はサポートされていません。 <block ref="ced1a4827b1ea3c1da0273c3d73fdd46" category="inline-link-rx"></block></block>
+  <block id="fc031ba945e09cb6053f39527ae4937f" category="doc">クローンサポート</block>
+  <block id="e0fa1f53117aa72ea1061c2daaead5bc" category="paragraph">BlueXP Workload Factory for Builders でプロジェクトのクローンを作成できるようになりました。プロジェクトのクローンを作成すると、Builders はスナップショットから、元のプロジェクトと同じ構成の新しいプロジェクトを作成します。クローン作成は、類似のプロジェクトを素早く作成したり、テスト目的で使用する場合に便利です。新しいプロジェクトのクローンは、Builders の指示に従ってマウントできます。</block>
+  <block id="d88d0821a38808f607bab21c2cc4cf9e" category="inline-link">ビルダープロジェクトの BlueXP ワークロード ファクトリーのバージョンを管理する</block>
+  <block id="bbdb933c88b694592079931541c31eb3" category="paragraph"><block ref="bbdb933c88b694592079931541c31eb3" category="inline-link-rx"></block></block>
+  <block id="f3dffc1ab287638d7073208a231fa289" category="summary">スナップショットとクローンを使用して、Builders プロジェクトのバージョンを管理します。</block>
+  <block id="b066fd241c4e6e66ece7c7a4527218cf" category="inline-link">ワークロードファクトリーREST API</block>
+  <block id="00b8d5f676925ae3d9b3373616e27074" category="paragraph">ワークロードファクトリーからオンデマンドのスナップショットとクローンを直接作成することで、Buildersプロジェクトの異なるバージョンを操作できます。プロジェクトのスナップショットとクローンは、プロジェクトの作成時に関連付けられたファイルシステムに保存されます。また、 <block ref="5f3a8bb73f58d34352656d43a7f37086" category="inline-link-rx"></block> 。</block>
+  <block id="527db32c9553673d65f35d38b044b7de" category="section-title">プロジェクトのクローンを作成する</block>
+  <block id="9a9aa1b9cb93d04e42fe69259c5b4a7e" category="paragraph">以下の手順に従って、スナップショットから Builders プロジェクトのクローンを作成します。クローンを作成すると、クローンを格納するための新しい編集可能なボリュームが作成されます。</block>
+  <block id="ffd0b63d4491cd8691ad26a9457b8f6a" category="list-text">プロジェクトページで、 <block ref="4dc533ba94e6ca8d1968a9d477e1cbce" category="inline-image-macro-rx" type="image"></block>クローンを作成するプロジェクトの。</block>
+  <block id="e289b398c25a5d7192096ffdb52be29f" category="list-text">表示されたメニューで、「クローンを作成」を選択します。</block>
+  <block id="1baa1309157b6d07509f68ee5fbfebaa" category="list-text">*クローンの作成*ダイアログで、次の操作を行います。</block>
+  <block id="c9f8a1bc51e7ad4b5dbd3b4fd54d159e" category="list-text">クローンの名前を入力します。</block>
+  <block id="ef9eed0d84a82b3fb511fd837da2eef7" category="paragraph">クローンのデフォルト名は、現在の日付と時刻の接尾辞が付いたプロジェクト名になります。</block>
+  <block id="34ec6730fd54f4c463f31402d0ea9b83" category="list-text">クローンのベースとして使用するスナップショットを選択します。</block>
+  <block id="c53c752e3fb8fda71f585d5e8721e833" category="paragraph">ワークロード ファクトリーによってプロジェクトの新しいクローンが作成され、そのクローンが [プロジェクト] ページに新しいプロジェクトとして表示されます。</block>
+  <block id="f6db487abe903d447c5070f569416c3a" category="section-title">2025年6月16日</block>
+  <block id="adbb6bf856639e7a9dcf34b22158718f" category="sidebar">プロジェクトのバージョンを管理する</block>
 </blocks>
