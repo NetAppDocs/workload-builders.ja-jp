@@ -23,7 +23,7 @@ sidebar:
       url: "/known-limitations.html"
   - title: 開始する
     entries:
-    - title: ビルダー向けBlueXP  ワークロードファクトリーの詳細
+    - title: NetApp Workload Factory for Buildersの詳細
       url: "/learn-builders.html"
     - title: クイックスタート
       url: "/quick-start-builders.html"
@@ -50,5 +50,5 @@ sidebar:
   - title: 法的通知
     url: "/legal-notices.html"
 product-family:
-  name: BlueXP workload factory
+  name: NetApp Workload Factory
   repo: workload-family

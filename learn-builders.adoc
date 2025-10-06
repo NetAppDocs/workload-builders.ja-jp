@@ -2,34 +2,34 @@
 sidebar: sidebar 
 permalink: learn-builders.html 
 keywords: software builders, development, benefits 
-summary: BlueXP  Workload Factory for Buildersは、ソフトウェアビルダー向けの迅速なビルド環境作成ツールです。 
+summary: NetApp Workload Factory for Builders は、ソフトウェア ビルダー向けの迅速なビルド環境作成ツールです。 
 ---
-= ビルダー向けBlueXP  ワークロードファクトリーの詳細
+= NetApp Workload Factory for Buildersの詳細
 :allow-uri-read: 
 :icons: font
 :imagesdir: ./media/
 
 
 [role="lead"]
-BlueXP  Workload Factory for Buildersは、ソフトウェアビルダー向けの迅速なビルド環境作成ツールです。個人用の開発環境の迅速なセットアップが可能になり、開発者が時間を節約してセルフサービスを利用できるようになると同時に、DevOpsチームがインフラの管理を維持できるようになります。Buildersを使用すると、ソフトウェア開発者は、専用のデータストレージや開発インフラストラクチャの理解を必要とせずに、ワークスペースをすばやく作成できます。
+NetApp Workload Factory for Builders は、ソフトウェア ビルダー向けの迅速なビルド環境作成ツールです。これにより、個人開発環境の迅速なセットアップが可能になり、時間が節約され、開発者のセルフサービスが可能になるとともに、DevOps チームがインフラストラクチャを制御できるようになります。ビルダーを使用すると、ソフトウェア開発者は特殊なデータ ストレージや開発インフラストラクチャの理解を必要とせずに、ワークスペースをすばやく作成できます。
 
 
 
-== ビルダーのためのBlueXP  ワークロードファクトリーとは何ですか?
+== NetApp Workload Factory for Builders とは何ですか?
 
-BlueXP  Workload Factory for Buildersは、開発者がソフトウェアのさまざまなバージョンを管理および操作する方法を合理化するように設計されています。ビルダーはPerforce Helix Coreとシームレスに統合して、ソフトウェアバージョンのクローンを瞬時に作成し、開発、QA、CI/CDプロセス用のすぐに使用できるワークスペースを作成します。
+NetApp Workload Factory for Builders は、開発者がさまざまなバージョンのソフトウェアを管理および操作する方法を効率化するように設計されています。  Builders は Perforce Helix Core とシームレスに統合され、ソフトウェア バージョンの即時クローンを提供し、開発、QA、CI/CD プロセスにすぐに使用できるワークスペースを作成します。
 
 Buildersを使用すると、プロジェクトを簡単に作成し、ソフトウェア環境とその成果物を表すボリュームを割り当てることができます。ソフトウェアを更新すると、ボリュームのスナップショットを作成して、その時点のソフトウェアの状態をキャプチャできます。つまり、バージョン管理システムと再同期することなく、ソフトウェアのどのバージョンにも瞬時にアクセスできるため、貴重な時間とリソースを節約できます。
 
 ONTAPのスナップショット機能とクローン機能を活用することで、Buildersは開発ワークフローを強化し、ソフトウェアの複数バージョンへの迅速なアクセスを可能にし、開発サイクルを短縮し、市場投入までの時間を短縮します。
 
-ワークロードファクトリの詳細については、を参照してlink:https://docs.netapp.com/us-en/workload-setup-admin/workload-factory-overview.html["ワークロードファクトリの概要"^]ください。
+ワークロードファクトリーの詳細については、link:https://docs.netapp.com/us-en/workload-setup-admin/workload-factory-overview.html["ワークロードファクトリーの概要"^] 。
 
 
 
-== ビルダー向けBlueXP  ワークロードファクトリー機能
+== NetApp Workload Factory for Buildersの機能
 
-BlueXP  Workload Factory for Buildersには、次の機能があります。
+NetApp Workload Factory for Builders は、次の機能を提供します。
 
 * プロジェクトの作成、編集、削除
 * 定義済みのソフトウェアバージョンのスナップショットを作成する
@@ -48,20 +48,20 @@ BlueXP  Workload Factory for Buildersには、次の機能があります。
 
 
 
-== Workload Factoryの動作モード
+== ワークロードファクトリーの動作モード
 
-3つの異なる動作モード（_基本_、_読み取り専用_、_読み取り/書き込み_）により、ワークロードファクトリーの内外を問わず、柔軟な導入オプションを提供します。_ワークロードファクトリの外部で使用するコードスニペットを使用して、ゼロトラストのIN_BASIC_MODEですぐに価値を得ることができます。読み取り専用_モードと_読み取り/書き込み_モードでは、信頼性を段階的に高めることで、付加価値を高めることができます。
+3 つの異なる動作モード (_基本_、_読み取り専用_、_読み取り/書き込み_) により、Workload Factory の内外での展開に柔軟なオプションが提供されます。  Workload Factory の外部で使用するためのコード スニペットを使用して、_基本_ モードでゼロ トラストの価値をすぐに得ることができます。  _読み取り専用_ モードと _読み取り/書き込み_ モードで増分信頼を使用して増分値を取得します。
 
-詳細については、をご覧ください link:https://docs.netapp.com/us-en/workload-setup-admin/operational-modes.html["Workload Factoryの動作モード"^]。
+詳細はこちらlink:https://docs.netapp.com/us-en/workload-setup-admin/operational-modes.html["ワークロードファクトリーの動作モード"^] 。
 
 
 
-== Workload Factory Codeboxによる自動化
+== Workload Factory Codebox による自動化
 
 Workload Factoryでは、_Codebox_を使用した自動化が組み込まれています。Codeboxには、次のような自動化の利点があります。
 
 * *コードスニペットの生成*：IAC（Infrastructure as Code）スニペットはリソース作成時に生成されるため、既存のオーケストレーションワークフローとシームレスに統合できます。
-* *コードとしてのインフラコパイロット*:コードボックスは、開発者とDevOpsがワークロードファクトリでサポートされているすべての操作を実行するためのコードを生成するのを支援するコードとしてのインフラストラクチャ（IAC）コパイロットです。
+* *Infrastructure-as-code のコパイロット*: Codebox は、開発者と DevOps が Workload Factory でサポートされているあらゆる操作を実行するためのコードを生成するのに役立つ Infrastructure-as-code (IaC) コパイロットです。
 * *コードビューアと自動化カタログ*:コードボックスは、自動化の迅速な分析のためのコードビューアと、将来の迅速な再利用のための自動化カタログを提供します。
 
 
@@ -69,17 +69,17 @@ Workload Factoryでは、_Codebox_を使用した自動化が組み込まれて�
 
 == コスト
 
-ワークロードファクトリのビルダー機能を使用するためのコストはありません。
+Workload Factory の Builders 機能の使用には料金はかかりません。
 
 
 
 == ライセンス
 
-ワークロードファクトリのビルダー機能を使用するために、NetAppから特別なライセンスは必要ありません。
+Workload Factory の Builders 機能を使用するために、 NetAppからの特別なライセンスは必要ありません。
 
 
 
-=== サポートされている地域
+== 地域
 
 ビルダーは、FSx for ONTAPがサポートされるすべての商用地域でサポートされます。 https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/["サポート対象の Amazon リージョンを表示します。"^]
 
@@ -97,4 +97,4 @@ Workload Factoryでは、_Codebox_を使用した自動化が組み込まれて�
 
 Amazon FSx for NetApp ONTAP は、AWSファーストパーティの解決策 です。FSx for ONTAPファイルシステム、インフラ、または本サービスを使用する解決策に関する質問やテクニカルサポートの問題については、AWS管理コンソールのサポートセンターを使用してAWSに対するサポートケースをオープンしてください。「 FSX for ONTAP 」サービスと該当するカテゴリを選択します。AWS サポートケースの作成に必要な残りの情報を指定します。
 
-ワークロードファクトリまたはワークロードファクトリのアプリケーションとサービスに関する一般的な質問については、を参照してくださいlink:get-help-builders.html["ワークロード工場のビルダーのサポート"]。
+Workload FactoryまたはWorkload Factoryアプリケーションとサービスに関する一般的な質問については、以下を参照してください。link:get-help-builders.html["Workload Factory のビルダーのヘルプを取得する"] 。

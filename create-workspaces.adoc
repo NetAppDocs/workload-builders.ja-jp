@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: create-workspaces.html 
 keywords: manage, workspace, snapshot, project 
-summary: BlueXP  Workload Factory for Buildersのワークスペースは、プロジェクトスナップショットに基づくプロジェクトのPerforce表現です。Buildersプロジェクトの一部としてワークスペースを作成できます。 
+summary: NetApp Workload Factory for Builders のワークスペースは、プロジェクト スナップショットに基づいたプロジェクトの Perforce 表現です。ビルダー プロジェクトの一部としてワークスペースを作成できます。 
 ---
 = ビルダーワークスペースの作成
 :allow-uri-read: 
@@ -11,7 +11,7 @@ summary: BlueXP  Workload Factory for Buildersのワークスペースは、プ
 
 
 [role="lead"]
-BuildersのBlueXP  ワークロードファクトリのワークスペースは、特定の時点におけるプロジェクトをPerforceで表現したものです。ワークスペースは、プロジェクトスナップショットをベースとして作成されます。ビルダープロジェクト内に新しいワークスペースを作成できます。ワークスペースはPerforce UIから作成できます。
+NetApp Workload Factory for Builders のワークスペースは、特定の時点におけるプロジェクトの Perforce 表現です。ワークスペースは、プロジェクト スナップショットをベースとして作成されます。  Builders プロジェクト内に新しいワークスペースを作成できます。  Perforce UI からワークスペースを作成できます。
 
 .開始する前に
 BuildersとPerforce Helix Visual Clientが統合されていることを確認します。詳細については、を参照してください link:integrate-perforce.html["ビルダーとPerforceの統合"^] 。
@@ -20,9 +20,10 @@ BuildersとPerforce Helix Visual Clientが統合されていることを確認�
 . Perforceにログインします。
 . Perforceメニューで、*[表示]*>*[WF]を選択します。
 +
-Workload Factoryのログイン画面がPerforce UIに表示されます。
+Perforce UI 内に Workload Factory ログイン画面が表示されます。
 
-. いずれかを使用してワークロードファクトリにログインしlink:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["コンソールエクスペリエンス"^]ます。
+. 次のいずれかを使用してWorkload Factoryにログインします。link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["コンソールエクスペリエンス"^] 。
+. Builders ワークロード タイルで、*プロジェクトの作成* を選択します。
 . [ワークスペースの作成]*を選択します。
 . [ワークスペースプロジェクトの作成]ページで、次の項目を指定します。
 +

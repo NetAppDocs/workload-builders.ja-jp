@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: manage-projects.html 
 keywords: Microsoft SQL Server instance, server instance, manage host, view host, database host, database instance, manage, unmanage 
-summary: データベースのワークロードファクトリでMicrosoft SQL Serverインスタンスを管理します。 
+summary: Workload Factory for Databases で Microsoft SQL Server インスタンスを管理します。 
 ---
 = ビルダープロジェクトの管理
 :allow-uri-read: 
@@ -11,7 +11,7 @@ summary: データベースのワークロードファクトリでMicrosoft SQL 
 
 
 [role="lead"]
-Buildersプロジェクトを管理して、Builders用BlueXP  ワークロードファクトリの各プロジェクトのコードとアーティファクトの管理方法を制御できます。
+NetApp Workload Factory for Builders で Builders プロジェクトを管理して、各プロジェクトのコードとアーティファクトの管理方法を制御できます。
 
 
 
@@ -20,7 +20,7 @@ Buildersプロジェクトを管理して、Builders用BlueXP  ワークロー�
 新しいBuildersプロジェクトを作成して、コードやアーティファクトにAmazon FSx for NetApp ONTAPファイルシステムのデータ保護機能を活用できます。
 
 .手順
-. いずれかを使用してワークロードファクトリにログインしlink:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["コンソールエクスペリエンス"^]ます。
+. 次のいずれかを使用してWorkload Factoryにログインします。link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["コンソールエクスペリエンス"^] 。
 . ビルダータイルで、*プロジェクトの作成*を選択します。
 . [プロジェクトの作成]ページで、次の項目を指定します。
 +
@@ -42,7 +42,7 @@ Buildersプロジェクトを管理して、Builders用BlueXP  ワークロー�
 
 .. *オペレーションポリシー*:プロジェクトクローンの制限を指定します。
 +
-... *最大保持日数*：クローンを保持する最大日数を入力します。この日数が経過すると、ワークロードファクトリによってクローンが削除されます。
+... *最大保持日数*: クローンを保持する最大日数を入力します。この日数が経過すると、Workload Factory はクローンを削除します。
 ... *ユーザまたはグループあたりのクローンの最大数*：ユーザまたはグループに対してプロビジョニングできるクローンの最大数を入力します。
 ... *最大クローンサイズ（GiB）*：プロジェクトクローンの最大サイズをGiB単位で入力します。
 
@@ -71,10 +71,10 @@ Buildersプロジェクトを管理して、Builders用BlueXP  ワークロー�
 
 == 既存のプロジェクトの表示
 
-ビルダーのBlueXP  ワークロードファクトリで作成された既存のプロジェクトを表示するには、次の手順を実行します。
+次の手順に従って、 NetApp Workload Factory for Builders で作成された既存のプロジェクトを表示できます。
 
 .手順
-. いずれかを使用してワークロードファクトリにログインしlink:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["コンソールエクスペリエンス"^]ます。
+. 次のいずれかを使用してWorkload Factoryにログインします。link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["コンソールエクスペリエンス"^] 。
 . ビルダータイルで、*プロジェクトページに移動*を選択します。
 . [プロジェクト]ページにリストされている既存のプロジェクトを表示します。
 
@@ -86,7 +86,7 @@ Buildersプロジェクトを管理して、Builders用BlueXP  ワークロー�
 プロジェクトの設定はいつでも編集できます。
 
 .手順
-. いずれかを使用してワークロードファクトリにログインしlink:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["コンソールエクスペリエンス"^]ます。
+. 次のいずれかを使用してWorkload Factoryにログインします。link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["コンソールエクスペリエンス"^] 。
 . ビルダータイルで、*プロジェクトページに移動*を選択します。
 . [プロジェクト]ページで、編集するプロジェクトのを選択しますimage:icon-action.png["オプションボタン"]。
 . プロジェクト構成に必要な変更を加えます。
@@ -100,7 +100,7 @@ Buildersプロジェクトを管理して、Builders用BlueXP  ワークロー�
 プロジェクトのクローンまたはスナップショットはワークスペースと呼ばれます。作成したワークスペースは、プロジェクトの操作ポリシーで許可されている限り保持されます。プロジェクトの既存のワークスペースを表示するには、次の手順を実行します。
 
 .手順
-. いずれかを使用してワークロードファクトリにログインしlink:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["コンソールエクスペリエンス"^]ます。
+. 次のいずれかを使用してWorkload Factoryにログインします。link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["コンソールエクスペリエンス"^] 。
 . ビルダータイルで、*プロジェクトページに移動*を選択します。
 . [プロジェクト]ページでプロジェクトを選択し、*[表示]*を選択します。
 . このプロジェクトのすべてのワークスペースのステータスと詳細を表示します。
@@ -114,7 +114,7 @@ Buildersプロジェクトを管理して、Builders用BlueXP  ワークロー�
 不要になったプロジェクトを削除するには、次の手順を実行します。
 
 .手順
-. いずれかを使用してワークロードファクトリにログインしlink:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["コンソールエクスペリエンス"^]ます。
+. 次のいずれかを使用してWorkload Factoryにログインします。link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["コンソールエクスペリエンス"^] 。
 . ビルダータイルで、*プロジェクトページに移動*を選択します。
 . [プロジェクト]ページで、削除するプロジェクトのを選択しますimage:icon-action.png["オプションボタン"]。
 . 「 * 削除」を選択します。

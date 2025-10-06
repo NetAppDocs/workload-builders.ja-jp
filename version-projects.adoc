@@ -4,14 +4,14 @@ permalink: version-projects.html
 keywords: snapshot, clone, project, protect, API, version, versions, versioning 
 summary: スナップショットとクローンを使用して、Builders プロジェクトのバージョンを管理します。 
 ---
-= ビルダープロジェクトの BlueXP ワークロード ファクトリーのバージョンを管理する
+= NetApp Workload Factory for Builders プロジェクトのバージョンを管理する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ./media/
 
 
 [role="lead"]
-ワークロードファクトリーからオンデマンドのスナップショットとクローンを直接作成することで、Buildersプロジェクトの異なるバージョンを操作できます。プロジェクトのスナップショットとクローンは、プロジェクトの作成時に関連付けられたファイルシステムに保存されます。また、  https://console.workloads.netapp.com/api-doc["ワークロードファクトリーREST API"^] 。
+Workload Factory からオンデマンドのスナップショットやクローンを直接作成して、Builders プロジェクトのさまざまなバージョンを操作します。プロジェクトのスナップショットとクローンは、プロジェクトの作成時にプロジェクトに関連付けられたファイルシステムに保存されます。スナップショットとクローンを管理するには、 https://console.workloads.netapp.com/api-doc["ワークロードファクトリー REST API"^] 。
 
 
 
@@ -20,7 +20,7 @@ summary: スナップショットとクローンを使用して、Builders プ�
 プロジェクトのスナップショットを作成するには、次の手順を実行します。
 
 .手順
-. いずれかを使用してワークロードファクトリにログインしlink:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["コンソールエクスペリエンス"^]ます。
+. 次のいずれかを使用してWorkload Factoryにログインします。link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["コンソールエクスペリエンス"^] 。
 . ビルダータイルで、*プロジェクトページに移動*を選択します。
 . [プロジェクト]ページで、スナップショットを作成するプロジェクトのを選択しますimage:icon-action.png["オプションボタン"]。
 . 表示されたメニューで*[Create a snapshot]*を選択します。
@@ -34,7 +34,7 @@ summary: スナップショットとクローンを使用して、Builders プ�
 以下の手順に従って、スナップショットから Builders プロジェクトのクローンを作成します。クローンを作成すると、クローンを格納するための新しい編集可能なボリュームが作成されます。
 
 .手順
-. いずれかを使用してワークロードファクトリにログインしlink:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["コンソールエクスペリエンス"^]ます。
+. 次のいずれかを使用してWorkload Factoryにログインします。link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["コンソールエクスペリエンス"^] 。
 . ビルダータイルで、*プロジェクトページに移動*を選択します。
 . プロジェクトページで、 image:icon-action.png["オプションボタン"]クローンを作成するプロジェクトの。
 . 表示されたメニューで、「クローンを作成」を選択します。

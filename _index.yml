@@ -1,7 +1,7 @@
 ---
 indexpage:
-  title: BlueXP  Workload Factory for Buildersドキュメント
-  lead: BlueXP  ワークロード工場で、FSx for ONTAPファイルシステムストレージ上にソフトウェア開発プロジェクトを作成、管理します。
+  title: NetApp Workload Factory for Builders ドキュメント
+  lead: NetApp Workload Factory の FSx for ONTAPファイル システム ストレージ上でソフトウェア開発プロジェクトを作成および管理します。
   tiles:
   - title: 開始する
     links:
@@ -27,9 +27,9 @@ indexpage:
       url: "/get-help-builders.html"
   - title: ブログとコミュニティ
     links:
+    - title: NetAppコンソール
+      url: https://www.netapp.com/console
+    - title: NetAppデータサービス
+      url: https://www.netapp.com/data-services/
     - title: NetAppコミュニティ
-      url: https://community.netapp.com/t5/BlueXP-and-Services/ct-p/CDS
-    - title: BlueXPのブログ
-      url: https://bluexp.netapp.com/blog
-    - title: クラウドに関する Web セミナー
-      url: https://bluexp.netapp.com/events
+      url: https://community.netapp.com/

@@ -1,17 +1,27 @@
 ---
 sidebar: sidebar 
 permalink: whats-new.html 
-keywords: 'what"s new, features, new, release notes, enhancements, fixes, new features, workload factory, builders, workload factory' 
-summary: データベース向けワークロードファクトリーの最新情報をご確認ください。 
+keywords: 'what"s new, features, new, release notes, enhancements, fixes, new features, Workload Factory, builders, Workload Factory' 
+summary: Workload Factory for Databases の新機能について学習します。 
 ---
-= ビルダー向けBlueXP  ワークロードファクトリーの最新情報
+= NetApp Workload Factory for Builders の新機能
 :allow-uri-read: 
 :icons: font
 :imagesdir: ./media/
 
 
 [role="lead"]
-Workload FactoryのBuilders機能の最新情報をご確認ください。
+Workload Factory の Builders 機能の新機能について説明します。
+
+
+
+== 2025年10月5日
+
+
+
+=== BlueXP workload factoryがNetAppワークロードファクトリーに
+
+BlueXP は、データ インフラストラクチャの管理における役割をより適切に反映するために、名前が変更され、再設計されました。その結果、 BlueXP workload factoryの名前がNetAppワークロード ファクトリーに変更されました。
 
 
 
@@ -21,9 +31,9 @@ Workload FactoryのBuilders機能の最新情報をご確認ください。
 
 === クローンサポート
 
-BlueXP Workload Factory for Builders でプロジェクトのクローンを作成できるようになりました。プロジェクトのクローンを作成すると、Builders はスナップショットから、元のプロジェクトと同じ構成の新しいプロジェクトを作成します。クローン作成は、類似のプロジェクトを素早く作成したり、テスト目的で使用する場合に便利です。新しいプロジェクトのクローンは、Builders の指示に従ってマウントできます。
+BlueXP Workload Factory for Builders でプロジェクトを複製できるようになりました。プロジェクトを複製すると、Builders はスナップショットから元のプロジェクトと同じ構成の新しいプロジェクトを作成します。クローン作成は、類似のプロジェクトをすばやく作成したり、テストしたりする場合に役立ちます。ビルダーの指示に従って、新しいプロジェクトのクローンをマウントできます。
 
-https://docs.netapp.com/us-en/workload-builders/version-projects.html["ビルダープロジェクトの BlueXP ワークロード ファクトリーのバージョンを管理する"]
+https://docs.netapp.com/us-en/workload-builders/version-projects.html["BlueXP Workload Factory for Builders プロジェクトのバージョンを管理する"]
 
 
 
@@ -33,7 +43,7 @@ https://docs.netapp.com/us-en/workload-builders/version-projects.html["ビルダ
 
 === 権限に関する用語を更新
 
-ワークロード ファクトリのユーザー インターフェースとドキュメントでは、読み取り権限を示すために「読み取り専用」を使用し、自動化権限を示すために「読み取り/書き込み」を使用するようになりました。
+Workload Factory のユーザー インターフェースとドキュメントでは、読み取り権限を示すために「読み取り専用」を使用し、自動化権限を示すために「読み取り/書き込み」を使用するようになりました。
 
 
 
@@ -43,6 +53,6 @@ https://docs.netapp.com/us-en/workload-builders/version-projects.html["ビルダ
 
 === ビルダーワークロードの初回リリース
 
-BlueXP  Workload Factory for Buildersは、ソフトウェアバージョンの消費とアクセスを簡素化し、カスタムツールやスクリプトの必要性を排除します。ソフトウェアバージョンをPerforce Helix Coreと統合されたインスタントクローンとして使用し、開発プロセスに便利なワークスペースとして使用できるため、時間とリソースを節約できます。
+BlueXP Workload Factory for Builders はソフトウェア バージョンの使用とアクセスを簡素化し、カスタム ツールやスクリプトの必要性を排除します。これにより、開発プロセスに便利なワークスペースとして Perforce Helix Core と統合されたインスタント クローンとしてソフトウェア バージョンを使用できるようになるため、時間とリソースを節約できます。
 
 初期リリースには、プロジェクトとワークスペースを管理し、Codeboxを使用してアクションを自動化する機能が含まれています。また、BuildersとPerforce Helix Coreを統合することで、プロジェクトごとに異なるバージョンを管理し、すばやく切り替えることができます。

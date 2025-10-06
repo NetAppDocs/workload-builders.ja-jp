@@ -22,7 +22,7 @@ BuildersとPerforce Helix Visual Client (P4V)を統合すると、開発者はPe
 
 
 .結果
-Builders Web UIのBlueXP  ワークロードファクトリは、P4Vクライアント内にHTMLタブとして表示されます。
+NetApp Workload Factory for Builders Web UI は、P4V クライアント内で HTML タブとして表示されます。
 
 .次の手順
 link:manage-projects.html["移行アドバイザを使用してAmazon EC2導入計画を作成"]です。

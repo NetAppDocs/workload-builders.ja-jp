@@ -1,25 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <blocks>
   <block id="4cd460e2c71c2ffba346f4471ea0fa00" category="doc">ビルダーワークロードの初回リリース</block>
-  <block id="01885fa7b72aa9d947d8efa49fb4b8cd" category="paragraph">BlueXP  Workload Factory for Buildersは、ソフトウェアバージョンの消費とアクセスを簡素化し、カスタムツールやスクリプトの必要性を排除します。ソフトウェアバージョンをPerforce Helix Coreと統合されたインスタントクローンとして使用し、開発プロセスに便利なワークスペースとして使用できるため、時間とリソースを節約できます。</block>
   <block id="5f9f7bdd8b86c6cc583afabbd903007c" category="paragraph">初期リリースには、プロジェクトとワークスペースを管理し、Codeboxを使用してアクションを自動化する機能が含まれています。また、BuildersとPerforce Helix Coreを統合することで、プロジェクトごとに異なるバージョンを管理し、すばやく切り替えることができます。</block>
   <block id="08c1bf6e31ef174ff608b5eb3d282063" category="summary">Codeboxを使用すると、ホストの導入やデータベースの作成などを自動化できます。</block>
   <block id="2ea6aca63123969c1931cd33bf4619a0" category="doc">Codeboxによる自動化</block>
-  <block id="8f21210d3f74acd90334ba76bc90791c" category="paragraph">Codeboxを使用すると、プロジェクトの作成とデータ保護の操作を自動化できます。Codeboxは、コードとしてのインフラストラクチャ（IAC）のコパイロットであり、ワークロードファクトリでサポートされているすべての操作を実行するためのコードを生成するのに役立ちます。</block>
   <block id="bd282943a337f4287ca0d70f9a836261" category="inline-link-macro">コードボックス自動化</block>
   <block id="7954c9f6b266222ad558a397a97a8531" category="paragraph">詳細とその使用方法については、こちらをご覧 <block ref="d6a91743d83ea88006a3d66c27289981" category="inline-link-macro-rx"></block> ください。</block>
-  <block id="d320e674d0ba312d297842a73dcb793d" category="summary">BlueXP  Workload Factory for Buildersのワークスペースは、プロジェクトスナップショットに基づくプロジェクトのPerforce表現です。Buildersプロジェクトの一部としてワークスペースを作成できます。</block>
   <block id="5638176be5dd4e400efc77338868cf55" category="doc">ワークスペースの作成</block>
-  <block id="bed4b07913cf7b77e0bbaa749c305b16" category="paragraph">BuildersのBlueXP  ワークロードファクトリのワークスペースは、特定の時点におけるプロジェクトをPerforceで表現したものです。ワークスペースは、プロジェクトスナップショットをベースとして作成されます。ビルダープロジェクト内に新しいワークスペースを作成できます。ワークスペースはPerforce UIから作成できます。</block>
   <block id="135b308ed83c53f1516b7c754566d1c4" category="paragraph-title">開始する前に</block>
   <block id="99deb87866ad46d767c9f099cdd1bc32" category="inline-link-macro">ビルダーとPerforceの統合</block>
   <block id="6ada1658939e3e0c0066d917e1966e5b" category="paragraph">BuildersとPerforce Helix Visual Clientが統合されていることを確認します。詳細については、を参照してください <block ref="1d27073a25bfd58e633b69f8b5d54945" category="inline-link-macro-rx"></block> 。</block>
   <block id="f3a29486bed19a90f2da6d007818b427" category="list-title">手順</block>
   <block id="da8298c164d94d09143ffe89648c5d3c" category="list-text">Perforceにログインします。</block>
   <block id="0d8bfed2e411f7c8b7dff958995d4b8d" category="list-text">Perforceメニューで、*[表示]*&gt;*[WF]を選択します。</block>
-  <block id="cef1af30f6b4f7b7b4fb4dfaebdfd4ed" category="paragraph">Workload Factoryのログイン画面がPerforce UIに表示されます。</block>
   <block id="dcafe9cce796ce855e87b270f0a5af59" category="inline-link-macro">コンソールエクスペリエンス</block>
-  <block id="eb788a90862825cc147ed3f85612a8cc" category="list-text">いずれかを使用してワークロードファクトリにログインし<block ref="68ceec76279c6913cdee16884c2d813a" category="inline-link-macro-rx"></block>ます。</block>
   <block id="e779f93b54eb654988c0421af9a49154" category="list-text">[ワークスペースの作成]*を選択します。</block>
   <block id="7e8ef7f44044b6d0f74789559287feea" category="list-text">[ワークスペースプロジェクトの作成]ページで、次の項目を指定します。</block>
   <block id="84e0437fbb34f7df37fde5cd3164b871" category="list-text">ワークスペースのベースとして使用するスナップショットを選択します。</block>
@@ -28,11 +22,9 @@
   <block id="bf18811faac9b8e4fcaebab51afd1113" category="list-text">「 * Create * 」を選択します。</block>
   <block id="8eea62084ca7e541d918e823422bd82e" category="paragraph-title">結果</block>
   <block id="2d8f6486127f82c2bea30c11d743290d" category="paragraph">ワークスペースが作成され、[ワークスペース]ページのワークスペースのリストに表示されます。</block>
-  <block id="42342e81c625fd1c1141771fe2b6b202" category="summary">NetAppは、ワークロードファクトリーとそのクラウドサービスをさまざまな方法でサポートしています。ナレッジベース（ KB ）記事やコミュニティフォーラムなど、 24 時間 365 日利用可能な幅広いセルフサポートオプションをご用意しています。サポート登録には、 Web チケット処理によるリモートテクニカルサポートが含まれます。</block>
   <block id="fabfc25ef8996fd90836e58a4c0b26b6" category="doc">ヘルプを表示します</block>
   <block id="6a7b2c9c4cec65ad972b108fa0a1192b" category="section-title">FSx for ONTAPのサポートを利用する</block>
   <block id="18cf072964a583150dd247485ba75b92" category="inline-link-macro">Amazon FSx for ONTAP</block>
-  <block id="9d06990508d25d367d9158c6558eb9c8" category="paragraph"><block ref="9d06990508d25d367d9158c6558eb9c8" category="inline-link-macro-rx"></block></block>
   <block id="35f9849ffdd809bda11d0fc56e1e3583" category="paragraph">Workload Factoryおよびそのストレージソリューションおよびサービスに固有のテクニカルサポートを受けるには、以下に説明するサポートオプションを使用してください。</block>
   <block id="edd15fbeb7b2dffa163336ecd4f3e80c" category="section-title">セルフサポートオプションを使用します</block>
   <block id="5e4b821a1a82558dead1ef6961e90666" category="paragraph">次のオプションは、 1 日 24 時間、週 7 日間無料でご利用いただけます。</block>
@@ -45,7 +37,6 @@
   <block id="82812db645b6ff5e9c2a24ddfb66c8d6" category="paragraph">上記のセルフサポートオプションに加え、サポートを有効にしたあとで問題が発生した場合は、ネットアップサポートの担当者と相談して解決できます。</block>
   <block id="8fece025a1a8fef7018449bf104a2527" category="paragraph-title">始める前に</block>
   <block id="e2a733504c4088b809813bbb35a3ddfd" category="inline-link-macro">サポートに登録する方法について説明します</block>
-  <block id="aadd86a3fadf19221852692c6e4adc2f" category="paragraph">このオプションを選択すると、BlueXPコンソールの新しいブラウザタブが開き、サポートダッシュボードがロードされます。</block>
   <block id="08d96fdd1a845d80db99e6e1dffb8bc7" category="list-text">[*Resources*]ページで、[Technical Support]で次のいずれかのオプションを選択します。</block>
   <block id="6a1b74969231967ed071d465206b15c7" category="list-text">電話で誰かと話をしたい場合は、*[電話]*を選択します。netapp.comのページに移動し、電話番号が表示されます。</block>
   <block id="d65a2a6fc9caad1867728d4382eeb989" category="list-text">[ケースの作成]*を選択して、NetAppサポートスペシャリストとのチケットをオープンします。</block>
@@ -63,12 +54,10 @@
   <block id="0ff9b4b8684b9e03c9c1e1320935eae3" category="paragraph">サポートケースの履歴を確認するには、*[設定]&gt;[タイムライン]*を選択し、「サポートケースの作成」というアクションを検索します。右端のボタンをクリックすると、アクションを展開して詳細を表示できます。</block>
   <block id="5c56753585e89a84941bb3a78bc681af" category="paragraph">ケースを作成しようとすると、次のエラーメッセージが表示される場合があります。</block>
   <block id="a30f69ab0ec85d427a3e8835713525bd" category="paragraph">"選択したサービスに対してケースを作成する権限がありません"</block>
-  <block id="c7b7a5ae9f37fd7d24e4d641b9186fe9" category="paragraph">このエラーは、NSSアカウントとそれに関連付けられているレコードの会社が、BlueXPアカウントのシリアル番号(例960xxxx）または動作環境のシリアル番号。次のいずれかのオプションを使用して、サポートを受けることができます。</block>
   <block id="e01df0b4dfd95eba2c59333419e4fac6" category="list-text">製品内のチャットを使用します</block>
   <block id="d41d8cd98f00b204e9800998ecf8427e" category="inline-link"></block>
   <block id="639be990cfca56ab4b63685d8bacd437" category="list-text">テクニカル以外のケースを<block ref="2298f47e4dad19a3156da7ce6116d9b1" category="inline-link-rx"></block></block>
   <block id="898e35e1a4bf4b025c3edec879439b08" category="section-title">サポートケースの管理（プレビュー）</block>
-  <block id="8b74b053fbeeff5c3b6f4991cb1d028d" category="paragraph">アクティブなサポートケースと解決済みのサポートケースは、BlueXPから直接表示および管理できます。NSSアカウントと会社に関連付けられたケースを管理できます。</block>
   <block id="394ef093ad3259b9ff0fe7406f015b83" category="paragraph">ケース管理はプレビューとして使用できます。今後のリリースでは、この点をさらに改良し、機能を強化する予定です。製品内のチャットでご意見をお寄せください。</block>
   <block id="cf3a2d2c139bf5c9cc87fe714bfff3b1" category="paragraph">次の点に注意してください。</block>
   <block id="5e4e7672ec2ba2b8a763da7f6714e212" category="list-text">ページ上部のケース管理ダッシュボードには、次の2つのビューがあります。</block>
@@ -78,8 +67,6 @@
   <block id="56dcadeee6b0e5c47a52673f9b5a0bb3" category="list-text">目的の列を追加または削除したり、[優先度]や[ステータス]などの列の内容をフィルタリングしたりできます。他の列には、並べ替え機能だけがあります。</block>
   <block id="6f936762e1223311f031685422fcd3a4" category="paragraph">詳細については、以下の手順を参照してください。</block>
   <block id="b14929795a61440e9b4ec9f8a4885ae3" category="list-text">ケースごとに、ケースノートを更新したり、ステータスが「Closed」または「Pending Closed」でないケースをクローズしたりすることができます。</block>
-  <block id="0a4050ac39772e9281a9aba225254bf8" category="list-text">[ケース管理]*を選択し、プロンプトが表示されたらNSSアカウントをBlueXPに追加します。</block>
-  <block id="d8ce1865cf1fe3cffd60300b4b86ad63" category="paragraph">ケース管理*ページには、BlueXPユーザアカウントに関連付けられたNSSアカウントに関連するオープンケースが表示されます。これは、* NSS管理*ページの上部に表示されるNSSアカウントと同じです。</block>
   <block id="2ae5ae78bdb2d222f15fd8e89248709c" category="list-text">必要に応じて、テーブルに表示される情報を変更します。</block>
   <block id="1d39d3ab518e1e3f16cbafb2a56e1fd9" category="list-text">[Organization's Cases]*で[View]*を選択すると、会社に関連付けられているすべてのケースが表示されます。</block>
   <block id="059e856250b59be3069246887b74a23c" category="list-text">正確な日付範囲を選択するか、別の期間を選択して、日付範囲を変更します。</block>
@@ -107,25 +94,14 @@
   <block id="78b6e5d76f833be63e70a3cd5925a698" category="list-text">[HTMLタブのインポート]*を選択します。</block>
   <block id="e0ca1ffa7a7ff194727a7c27c1091abd" category="list-text">P4V統合XMLファイルを選択し、*インポート*を選択します。</block>
   <block id="8021afdc93837bf89b4d2209922664f5" category="list-text">[表示]*&gt;*[ワークロードファクトリ]*の順に選択します。</block>
-  <block id="ef61ce81e862e6ffc948f3f04f398a28" category="paragraph">Builders Web UIのBlueXP  ワークロードファクトリは、P4Vクライアント内にHTMLタブとして表示されます。</block>
   <block id="58eaebf972358f1cf03d386a4ade1a0f" category="paragraph-title">次の手順</block>
   <block id="bf9f27fc21322ff6302a870d86e2e722" category="inline-link-macro">移行アドバイザを使用してAmazon EC2導入計画を作成</block>
   <block id="87ca10f516e69b36084d36d28809162e" category="paragraph"><block ref="a5520c5bc95caf26ab1a143ec38e8340" category="inline-link-macro-rx"></block>です。</block>
   <block id="1eba71d64e6c5e410e558530711e835b" category="summary">このリリースの製品でサポートされていない、または正しく相互運用できないプラットフォーム、デバイス、または機能については、既知の制限事項が記載されています。これらの制限事項をよく確認してください。</block>
   <block id="482723983a4f2af954e36ff41e567451" category="doc">既知の制限事項</block>
   <block id="406b6743d6cb27b667d9600f28f51fe8" category="section-title">オペレータの権限が必要です</block>
-  <block id="0e82925f3b5c46a20fb9c532864e2c43" category="paragraph">BlueXP  Workload Factory for Buildersを正しく機能させるには、オペレータ権限が必要です。</block>
-  <block id="fd940c262dc5e446ae0a0410b7142d79" category="summary">BlueXP  Workload Factory for Buildersは、ソフトウェアビルダー向けの迅速なビルド環境作成ツールです。</block>
-  <block id="978a9377e8509d60456ddc9a632751bf" category="doc">ビルダー向けBlueXP  ワークロードファクトリーの詳細</block>
-  <block id="48761a7a1c7cf21df76de124e4bf468a" category="paragraph">BlueXP  Workload Factory for Buildersは、ソフトウェアビルダー向けの迅速なビルド環境作成ツールです。個人用の開発環境の迅速なセットアップが可能になり、開発者が時間を節約してセルフサービスを利用できるようになると同時に、DevOpsチームがインフラの管理を維持できるようになります。Buildersを使用すると、ソフトウェア開発者は、専用のデータストレージや開発インフラストラクチャの理解を必要とせずに、ワークスペースをすばやく作成できます。</block>
-  <block id="a177bea5834b437a33419c326a612169" category="section-title">ビルダーのためのBlueXP  ワークロードファクトリーとは何ですか?</block>
-  <block id="30d6cd98984294ee29a58d7bc3ecd9bb" category="paragraph">BlueXP  Workload Factory for Buildersは、開発者がソフトウェアのさまざまなバージョンを管理および操作する方法を合理化するように設計されています。ビルダーはPerforce Helix Coreとシームレスに統合して、ソフトウェアバージョンのクローンを瞬時に作成し、開発、QA、CI/CDプロセス用のすぐに使用できるワークスペースを作成します。</block>
   <block id="acf699fcbcfc00b42704c6549f7573ef" category="paragraph">Buildersを使用すると、プロジェクトを簡単に作成し、ソフトウェア環境とその成果物を表すボリュームを割り当てることができます。ソフトウェアを更新すると、ボリュームのスナップショットを作成して、その時点のソフトウェアの状態をキャプチャできます。つまり、バージョン管理システムと再同期することなく、ソフトウェアのどのバージョンにも瞬時にアクセスできるため、貴重な時間とリソースを節約できます。</block>
   <block id="69ced5671d5d5173c5ec8a09c78e6c22" category="paragraph">ONTAPのスナップショット機能とクローン機能を活用することで、Buildersは開発ワークフローを強化し、ソフトウェアの複数バージョンへの迅速なアクセスを可能にし、開発サイクルを短縮し、市場投入までの時間を短縮します。</block>
-  <block id="70cb57a8d5d75d8762d6b082d319dec7" category="inline-link-macro">ワークロードファクトリの概要</block>
-  <block id="092d6885b847467d6999738db9651764" category="paragraph">ワークロードファクトリの詳細については、を参照して<block ref="f3c978a33f5f67b2b7f311b0ac6d0acd" category="inline-link-macro-rx"></block>ください。</block>
-  <block id="f68c85d3ca9f728a18e779d0def20ddd" category="section-title">ビルダー向けBlueXP  ワークロードファクトリー機能</block>
-  <block id="28bbd42671616b45b56f40b0f97cd071" category="paragraph">BlueXP  Workload Factory for Buildersには、次の機能があります。</block>
   <block id="81271ea88c556e646a83ae8cb6874621" category="list-text">プロジェクトの作成、編集、削除</block>
   <block id="235bfdfadd266ee4aaf8ed4ef7af3c9c" category="list-text">定義済みのソフトウェアバージョンのスナップショットを作成する</block>
   <block id="2b1f12fc65d9945253b8cdbd567854de" category="list-text">ワークスペースの作成と削除（クローンに基づく）</block>
@@ -135,19 +111,11 @@
   <block id="46ba10149e48f982955997b9c27c31a0" category="list-text">Perforceなどのバージョン管理システムと統合</block>
   <block id="c11e3b8e48a7f97cb6cb2951dbceebea" category="section-title">ビルダーのプロジェクトとワークスペース</block>
   <block id="95b4a45851bf07d5318bb2244d28fcc7" category="paragraph">ビルダーを使用する場合は、プロジェクトを作成し、ソフトウェア環境とそのアーティファクトを表すボリュームを割り当てます。ソフトウェアの新しいバージョンを作成するたびに、ボリュームデータを再同期し、プロジェクトSnapshotを作成してボリュームの状態を既知のバージョンとしてマークする必要があります。プロジェクトのソースボリュームにローリング更新が適用され、複数のバージョンをマークするためのSnapshotが複数存在する場合があります。各スナップショットは、開発者、QA、またはビルドプロセスが利用できる専用または共有の編集可能なリポジトリであるインスタントクローンとしてすぐに使用できます。特定のソフトウェアバージョンのコンテキスト内のクローンは、ワークスペースです。</block>
-  <block id="5e403a4c3b152d7f395a9974ccfd4e4c" category="section-title">Workload Factoryの動作モード</block>
-  <block id="eb6e457556694fbc8d187534ac1188e1" category="inline-link-macro">Workload Factoryの動作モード</block>
-  <block id="7bb004aef4b112c40189995d006d040c" category="paragraph">詳細については、をご覧ください <block ref="eda3e48a35318d9f8306be63aaa1ab6b" category="inline-link-macro-rx"></block>。</block>
-  <block id="f63ee042c60cee6f631e4d8e0414dd00" category="section-title">Workload Factory Codeboxによる自動化</block>
   <block id="e8d2772773d0b560ee5057d9b413b85b" category="paragraph">Workload Factoryでは、_Codebox_を使用した自動化が組み込まれています。Codeboxには、次のような自動化の利点があります。</block>
   <block id="f1214f35af0ff103c79251078e169af6" category="list-text">*コードスニペットの生成*：IAC（Infrastructure as Code）スニペットはリソース作成時に生成されるため、既存のオーケストレーションワークフローとシームレスに統合できます。</block>
-  <block id="dbebcf8b009c3066f6c2e41d9d151db3" category="list-text">*コードとしてのインフラコパイロット*:コードボックスは、開発者とDevOpsがワークロードファクトリでサポートされているすべての操作を実行するためのコードを生成するのを支援するコードとしてのインフラストラクチャ（IAC）コパイロットです。</block>
   <block id="d8135e6fae6748dcba5e9d108c9af427" category="list-text">*コードビューアと自動化カタログ*:コードボックスは、自動化の迅速な分析のためのコードビューアと、将来の迅速な再利用のための自動化カタログを提供します。</block>
   <block id="20b4f77bd00b4f63a49ec8e08f3bf6a6" category="section-title">コスト</block>
-  <block id="2089c6b820b86b20a7f7888582f8fdc1" category="paragraph">ワークロードファクトリのビルダー機能を使用するためのコストはありません。</block>
   <block id="0b9c6eef4e3d3a222eb04e910d252339" category="section-title">ライセンス</block>
-  <block id="1da0e8d0baff6b19bb0cc4aed36be214" category="paragraph">ワークロードファクトリのビルダー機能を使用するために、NetAppから特別なライセンスは必要ありません。</block>
-  <block id="8c4b25218155a1fdb972f4169855d04f" category="section-title">サポートされている地域</block>
   <block id="d5b1044cbc510048a5dac270bde89ed5" category="inline-link">サポート対象の Amazon リージョンを表示します。</block>
   <block id="762e82c7fc7a9b2f0a9502b49f71b96b" category="paragraph">ビルダーは、FSx for ONTAPがサポートされるすべての商用地域でサポートされます。<block ref="54b85ac4e794c565ea8c7aad421e6e67" category="inline-link-rx"></block></block>
   <block id="186585d175a4fff1722ac82a5520c584" category="paragraph">次のAWSリージョンはサポートされません。</block>
@@ -157,8 +125,6 @@
   <block id="151ef168e17772f7a361db78a0c86552" category="list-text">トップシークレットクラウド</block>
   <block id="20c404f3ca0633629eee9b1b4ccd6737" category="section-title">サポートを受ける</block>
   <block id="da444b283df699667b2316206972bdfe" category="paragraph">Amazon FSx for NetApp ONTAP は、AWSファーストパーティの解決策 です。FSx for ONTAPファイルシステム、インフラ、または本サービスを使用する解決策に関する質問やテクニカルサポートの問題については、AWS管理コンソールのサポートセンターを使用してAWSに対するサポートケースをオープンしてください。「 FSX for ONTAP 」サービスと該当するカテゴリを選択します。AWS サポートケースの作成に必要な残りの情報を指定します。</block>
-  <block id="49621bd29ae42da955d4a0c135d19e86" category="inline-link-macro">ワークロード工場のビルダーのサポート</block>
-  <block id="65dd0f78a3b72996981e906ad877d452" category="paragraph">ワークロードファクトリまたはワークロードファクトリのアプリケーションとサービスに関する一般的な質問については、を参照してください<block ref="218312b2d9c914b9d139ff8e26e1dc71" category="inline-link-macro-rx"></block>。</block>
   <block id="30d965eef5ba25c6b9998ae38270b43e" category="doc">法的通知</block>
   <block id="e9c44bbfd795a5d63d74c6a77afee70d" category="paragraph">法的通知では、著作権に関する声明、商標、特許などにアクセスできます。</block>
   <block id="6016a2b341113bf496b719905398ecd2" category="section-title">著作権</block>
@@ -177,11 +143,7 @@
   <block id="2352c4e1f4d0024ade0869e00e6243f4" category="paragraph"><block ref="2352c4e1f4d0024ade0869e00e6243f4" category="inline-link-macro-rx"></block></block>
   <block id="c0227cef6f07a8cd2ac72f2945b031aa" category="section-title">オープンソース</block>
   <block id="9b73989307c1975dfa4d5e1581e4afe8" category="paragraph">通知ファイルには、ネットアップソフトウェアで使用されるサードパーティの著作権およびライセンスに関する情報が記載されています。</block>
-  <block id="428b0b39be2352757edeb5f9f12a7bdd" category="inline-link">BlueXP  ワークロードファクトリ</block>
-  <block id="7cf449620aa459bc5c449db69b07e507" category="paragraph"><block ref="7cf449620aa459bc5c449db69b07e507" category="inline-link-rx"></block></block>
-  <block id="727a3a4d7dff6cc4c7c2079c82737b77" category="summary">データベースのワークロードファクトリでMicrosoft SQL Serverインスタンスを管理します。</block>
   <block id="f1c3944d872285ff8f265eae2a58242a" category="doc">ビルダープロジェクトの管理</block>
-  <block id="8ccab38a4433bff5ae8b91cb0d8cd0dd" category="paragraph">Buildersプロジェクトを管理して、Builders用BlueXP  ワークロードファクトリの各プロジェクトのコードとアーティファクトの管理方法を制御できます。</block>
   <block id="be86ca474df5e14056bc0f20d2cdb767" category="section-title">プロジェクトを作成します</block>
   <block id="18f61d0eac6bce18a43123d572f97f9c" category="paragraph">新しいBuildersプロジェクトを作成して、コードやアーティファクトにAmazon FSx for NetApp ONTAPファイルシステムのデータ保護機能を活用できます。</block>
   <block id="782161a6e01d95a8a5860f840ff2d8ff" category="list-text">ビルダータイルで、*プロジェクトの作成*を選択します。</block>
@@ -197,7 +159,6 @@
   <block id="aac901acde2d9c0b975f3df90da3cc01" category="list-text">*ボリュームを選択*：プロジェクトを保存するボリュームを選択します。Buildersはこのボリュームをソフトウェアリポジトリとして使用します。</block>
   <block id="73699ce7a6810990bfdfcd9d66248475" category="paragraph">選択できるのは、NFS共有として設定されているボリュームだけです。</block>
   <block id="54707d044b3f7dbd9190e90c0c26da4b" category="list-text">*オペレーションポリシー*:プロジェクトクローンの制限を指定します。</block>
-  <block id="a809216c7c46f6741eb4e0a90cc4cd09" category="list-text">*最大保持日数*：クローンを保持する最大日数を入力します。この日数が経過すると、ワークロードファクトリによってクローンが削除されます。</block>
   <block id="1b50a415b7236d521d4caff453dc9d8c" category="list-text">*ユーザまたはグループあたりのクローンの最大数*：ユーザまたはグループに対してプロビジョニングできるクローンの最大数を入力します。</block>
   <block id="1aa5ccae7f0dcce26f22d0ad5c7ad270" category="list-text">*最大クローンサイズ（GiB）*：プロジェクトクローンの最大サイズをGiB単位で入力します。</block>
   <block id="60df076fa27b46615c02a69a695d47fa" category="list-text">*アクセスポリシー*:特定のユーザーまたはグループにプロジェクトアクセス権を明示的に付与します。</block>
@@ -207,7 +168,6 @@
   <block id="601e4c99c321f541ac2b8eb0510576a5" category="paragraph">例：<block ref="6edf26f6e0badff12fca32b16db38bf2" prefix=" " category="inline-code"></block></block>
   <block id="48ddfff7668ec69b4b4aba6cb8178ea2" category="paragraph">プロジェクトが作成され、[プロジェクト]ページのプロジェクトのリストに表示されます。</block>
   <block id="5adc04409266bb451a371fe1fb4271b5" category="section-title">既存のプロジェクトの表示</block>
-  <block id="c59f453c07a9cb3b6a8798e686127634" category="paragraph">ビルダーのBlueXP  ワークロードファクトリで作成された既存のプロジェクトを表示するには、次の手順を実行します。</block>
   <block id="782a66c1109cc7c69c203553b031a2c9" category="list-text">ビルダータイルで、*プロジェクトページに移動*を選択します。</block>
   <block id="8d316038ebf1829df9f37bc4382f5c99" category="list-text">[プロジェクト]ページにリストされている既存のプロジェクトを表示します。</block>
   <block id="83879b61fc6dcf133f90392c69f25d38" category="section-title">プロジェクトの編集</block>
@@ -234,9 +194,6 @@
   <block id="6db8b72b7bbe43f04d2b9ad1751e1fe6" category="doc">ビルダーのクイックスタート</block>
   <block id="0a900739ea1484f6a212a7ceda0d619c" category="paragraph">Buildersプロジェクトの作成を開始します。管理者とチームリーダーは、ビルダーを使用して、開発者チームのプロジェクトとワークスペースを管理できます。</block>
   <block id="06c2cea18679d64399783748fa367bdd" category="inline-image-macro">1つ</block>
-  <block id="2fd605c5fdf1d57ba01b68838e68dc27" category="paragraph-title"><block ref="58f667aaf05f87159670e12bd9bc076b" category="inline-image-macro-rx" type="image"></block>ワークロードファクトリへのログイン</block>
-  <block id="d9eebdefd5feceb309eadc305ce81e6f" category="inline-link">ワークロードファクトリでアカウントを設定する</block>
-  <block id="113933a0a6b3eb57d22f707e6384bd49" category="paragraph">のいずれかを使用してログインする<block ref="17b71e2884d56fdbadfe752689dbd4d6" category="inline-link-rx"></block>必要があります<block ref="5eb9de2715b74ed434f03d8a9fef9b70" category="inline-link-rx"></block>。</block>
   <block id="aada29daee1d64ed0fe907043855cb7e" category="inline-image-macro">2つ</block>
   <block id="b36a952e38561cb86fdb6a473044fce0" category="paragraph-title"><block ref="54f425ce8d89f4ed6b8a546561af5d60" category="inline-image-macro-rx" type="image"></block> AWSのクレデンシャルと権限をアカウントに追加する</block>
   <block id="fb391f4cf6483b8b419032dc188bd9d8" category="inline-link">クレデンシャルと権限を追加する方法</block>
@@ -254,11 +211,9 @@
   <block id="01e12de62fa77fda2815719aed8ff892" category="paragraph-title">次のステップ</block>
   <block id="88c42892f9e1c911a29a7014b69dfc2f" category="inline-link-macro">プロジェクトの作成</block>
   <block id="7467d1fcb66c06648d2208ce64162c0d" category="paragraph">これにより、コードとアーティファクトの迅速かつ効率的な管理を開発チームに提供できるようになりまし<block ref="48146dbc982d6a3ba456c1f10aacb1a9" category="inline-link-macro-rx"></block>た。</block>
-  <block id="bcb714c2eb89c8ef02579a621f95e48c" category="summary">BuildersにBlueXP  ワークロードファクトリを使用する前に、ワークロードファクトリとAWSが適切に設定されていることを確認してください。これには、AWSのログインクレデンシャル、導入されたFSx for ONTAPファイルシステムなどが含まれます。</block>
   <block id="7860bfc83777aac923d73f1002162f9d" category="doc">ビルダーの要件</block>
   <block id="7881e5952d93ca1a1396ec11c08fa645" category="list-text">ワークロードの工場出荷時のログインとアカウント</block>
   <block id="97911b3c54a4e826b34c1f79026316c5" category="list-text">AWS のクレデンシャルと権限</block>
-  <block id="5145374f219e1c177ab5588a5344aa6e" category="inline-link">ワークロードファクトリにAWSクレデンシャルを追加する方法を確認</block>
   <block id="e48bc5875c01dd007b7b2a370e879cde" category="list-text">FSx for ONTAPファイルシステム</block>
   <block id="c16810aa96ec44a060863610996db3f6" category="list-text">少なくとも1つのFSx for ONTAPファイルシステムが必要です。</block>
   <block id="cf935c2a5823110e8a09c3289b67514a" category="list-text">ファイルシステムは、作成したプロジェクトとワークスペースを保存するためにビルダーによって使用されます。</block>
@@ -270,30 +225,20 @@
   <block id="1f44141a0f383810dac8c932e0d76754" category="list-text">この導入に含まれるAWSリソースに適用するタグのキーと値のペアを検討する必要があります（オプション）。</block>
   <block id="d5858b81edfda50f75f7994c971764f0" category="inline-link">FSx for ONTAPファイルシステムの導入と管理の方法をご確認ください</block>
   <block id="7d57ea8255b8142e76fbb442ea9a782f" category="paragraph"><block ref="7d57ea8255b8142e76fbb442ea9a782f" category="inline-link-rx"></block></block>
-  <block id="056634bec4a153903ebb9b769277f4d7" category="summary">NetAppテクニカルサポートでサポートケースをオープンする前に、NetAppサポートサイトのアカウントをワークロード工場に追加し、サポートに登録する必要があります。</block>
   <block id="42748df9eaa0be17ddc5cc1593cf57ab" category="doc">サポートに登録します</block>
   <block id="0b0e252af8897fbe981ec6682d2aa33b" category="section-title">サポート登録の概要</block>
-  <block id="d7e4bb081bf4ec4814d83edcfbdb8b96" category="paragraph">アカウントIDサポートサブスクリプション（BlueXPの[Support Resources]ページに記載されている20桁の960xxxxxxxxxシリアル番号）を登録すると、単一のサポートサブスクリプションIDとして機能します。各BlueXPアカウントレベルのサポート契約が登録されている必要があります。</block>
-  <block id="f9e05c2b383e3f11e3b4bebbe8952225" category="paragraph">登録すると、サポートチケットのオープンやケースの自動生成などの機能が有効になります。登録を完了するには、以下の手順でNetApp Support Site（NSS）アカウントをBlueXPに追加してください。</block>
   <block id="856edc4caec68fece6859c4be9360f3c" category="section-title">NetAppサポートのアカウントを登録する</block>
-  <block id="2d6573b6ae4c51dc24e58109473f2490" category="paragraph">サポートに登録してサポート利用資格をアクティブ化するには、アカウントの1人のユーザがNetAppサポートサイトのアカウントをBlueXPログインに関連付ける必要があります。ネットアップサポートへの登録方法は、NetApp Support Site （NSS）アカウントがあるかどうかによって異なります。</block>
   <block id="bf4c731c0ee7f60c8018ad8f96828dda" category="section-title">NSSアカウントをお持ちの既存のお客様</block>
-  <block id="7e177185e7eddff33dd8f3aeb7551132" category="paragraph">NSSアカウントをお持ちのネットアップのお客様は、BlueXPからサポートに登録するだけで済みます。</block>
-  <block id="0307a12e5749f8dd930472ee78f69d2c" category="list-text">BlueXPコンソールの右上で、[設定]アイコンを選択し、*[クレデンシャル]*を選択します。</block>
   <block id="f19ab635e6d5f884a22ee4ce067fdbfd" category="list-text">[ユーザクレデンシャル]*を選択します。</block>
   <block id="0c788a722f31f8f0cf36539ee04615cf" category="list-text">[NSSクレデンシャルの追加]*を選択し、NetApp Support Site（NSS）認証プロンプトに従います。</block>
   <block id="cfc5506589d5a4d055e721267d5f0732" category="list-text">登録プロセスが正常に完了したことを確認するには、[ヘルプ]アイコンを選択し、*[サポート]*を選択します。</block>
   <block id="8add4eb0d3f6ce61d374f3df3ee4eadf" category="paragraph">[リソース]ページに、アカウントがサポートに登録されていることが表示されます。</block>
   <block id="10c56875db7a47f791d653e5d5bff0e9" category="inline-image-macro">アカウントのシリアル番号、緑のチェックボックス、サポート登録済みのテキストを示すスクリーンショット。</block>
   <block id="fa7897454f637026faa3e00ccbfec239" category="paragraph"><block ref="fa7897454f637026faa3e00ccbfec239" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="d9a01bdcfab6f0a10fc126999b4d5988" category="paragraph">他のBlueXPユーザにNetApp Support Siteアカウントが関連付けられていない場合、このサポート登録ステータスは表示されません。ただし、BlueXPアカウントがサポートに登録されていないわけではありません。アカウント内の1人のユーザーがこれらの手順を実行している限り、アカウントは登録されています。</block>
   <block id="1ff5aefce774ec72a211f2b3bb10b950" category="section-title">NSSアカウントを持たない既存のお客様</block>
-  <block id="bdd862f49d428a850400bcf2f53cdaf2" category="paragraph">NetAppの既存のお客様で、ライセンスとシリアル番号は_NO_NSSアカウントしかお持ちでない場合は、NSSアカウントを作成してBlueXPログインに関連付ける必要があります。</block>
   <block id="5b2b7f628f804bcb786a097c7e45aa41" category="inline-link">NetApp Support Site ユーザー登録フォーム</block>
   <block id="0c4a8b62da9473fbd5401273c4f85ee0" category="list-text">NetAppサポートサイトのアカウントを作成するには、<block ref="041bcb6d9bdf91f7d6ac92ae3a196e12" category="inline-link-rx"></block></block>
   <block id="d61c9f72493817776f392db42ac446a2" category="list-text">適切なユーザレベルを選択してください。通常は*ネットアップのお客様/エンドユーザ*がこれに該当します。</block>
-  <block id="5226d4ec1f4f81b740cbbd27635b441f" category="list-text">必ず、上記のシリアル番号フィールドに使用されているBlueXPアカウントのシリアル番号(960xxxx)をコピーしてください。これにより、アカウント処理が高速化されます。</block>
-  <block id="0499bba105f8a891a2c671f1ba99dd34" category="list-text">の手順を実行して、新しいNSSアカウントをBlueXPログインに関連付けます <block ref="2f3aba04ec49ee5f0573a6c80a1b9df2" category="inline-xref-macro-rx"></block>。</block>
   <block id="e9b1f53d6cabb3394833a4e102eb6a69" category="section-title">ネットアップのソリューションを初めて導入する場合は</block>
   <block id="c20c107d0d4eef6351660f3590324232" category="paragraph">ネットアップ製品を初めてご利用になり、NSSアカウントをお持ちでない場合は、以下の手順に従ってください。</block>
   <block id="f5d7029ed18f998c0a9d780b2554e538" category="list-text">[Support Resources]ページでアカウントIDのシリアル番号を確認します。</block>
@@ -309,12 +254,7 @@
   <block id="201080500e946070a2e4873042507c77" category="paragraph">確認ではネットアップにリクエストが送信され、NetApp Support Site アカウントを作成することを推奨します。</block>
   <block id="cc8b0535948da368f832027c19b7f853" category="list-text">シリアル番号フィールドには、上記のアカウントのシリアル番号（960xxxx）を必ずコピーしてください。これにより、アカウント処理が高速化されます。</block>
   <block id="684375e279a289295b72a006d93e2c4c" category="paragraph">このプロセスについては、ネットアップからご連絡ください。これは、新規ユーザ向けの1回限りのオンボーディング演習です。</block>
-  <block id="5cdee814e2d9ba3490a8f16d00c65759" category="paragraph">NetAppサポートサイトのアカウントを取得したら、の手順を実行してアカウントをBlueXPログインに関連付けます。 <block ref="2f3aba04ec49ee5f0573a6c80a1b9df2" category="inline-xref-macro-rx"></block></block>
-  <block id="b695d69d992cf41ed6cb2eae330d2d9a" category="summary">データベース向けワークロードファクトリーの最新情報をご確認ください。</block>
-  <block id="b3c5650c2bbe2cf7e9b39aa77519169b" category="paragraph">Workload FactoryのBuilders機能の最新情報をご確認ください。</block>
   <block id="5c8df45cbe01191b205c30373b7e5739" category="section-title">2024年12月1日</block>
-  <block id="77ecc188e3683ff647e9350cea980265" category="sidebar">BlueXP  ワークロード工場で、FSx for ONTAPファイルシステムストレージ上にソフトウェア開発プロジェクトを作成、管理します。</block>
-  <block id="4d35766d2a6ab8f1b3cb40a730f9b731" category="sidebar">BlueXP  Workload Factory for Buildersドキュメント</block>
   <block id="be11c74c1dd7f307bb80183a90dc2067" category="sidebar">開始する</block>
   <block id="7d0ee6fed10d3d4e5c9ee496729ab519" category="sidebar">リリースノート</block>
   <block id="360209a9194a7a144c60dc66473ddb6e" category="sidebar">ビルダーズの詳細</block>
@@ -329,39 +269,14 @@
   <block id="eea1c8722623804ecbfedb5877fe1fe0" category="doc">CodeboxでBuildersタスクを自動化</block>
   <block id="d9c7cb0c1a45fbc72de246fdddd7728b" category="doc">ビルダーワークスペースの作成</block>
   <block id="15db2e3e50e69780a1a62157fd7d29fa" category="doc">ビルダーに関するヘルプ</block>
-  <block id="811bf57d4ae533110508a5fcc7be0276" category="doc">ビルダー向けBlueXP  ワークロードファクトリーの既知の制限事項</block>
-  <block id="827e97c0eb67d11c51fdab3d7de7cc47" category="doc">BlueXP  Workload Factory for Buildersに関する法的通知</block>
-  <block id="f326a729fb5b859cb51ee1e03ade5a34" category="doc">BlueXP  Workload Factory for Buildersのサポートに登録</block>
-  <block id="4f2bbf87005596e383f28ae211c4bd94" category="doc">ビルダー向けBlueXP  ワークロードファクトリーの最新情報</block>
-  <block id="b6a4501cc05e54e2e5a513c3b552183a" category="paragraph">NetAppは、BlueXP  ワークロードファクトリとそのクラウドサービスをさまざまな方法でサポートしています。ナレッジベース（ KB ）記事やコミュニティフォーラムなど、 24 時間 365 日利用可能な幅広いセルフサポートオプションをご用意しています。サポート登録には、 Web チケット処理によるリモートテクニカルサポートが含まれます。</block>
-  <block id="261966eaf033c38f6934f2c8fc36d79c" category="paragraph">FSx for ONTAP、そのインフラ、またはサービスを使用するソリューションに関連するテクニカルサポートについては、その製品のワークロード工場のドキュメントで「困ったときは」を参照してください。</block>
-  <block id="5b49df4e58e2a4750acd8bfa8687ccd6" category="paragraph">現在表示しているワークロードファクトリのドキュメント。</block>
-  <block id="ba51332e265e54eb4295d6e7d057bad8" category="paragraph">ワークロードファクトリのナレッジベースを検索して、問題のトラブルシューティングに役立つ記事を見つけてください。</block>
-  <block id="fc3e8f3c2017c33d444d483913a485ba" category="paragraph">Workload Factoryコミュニティに参加して、進行中のディスカッションをフォローしたり、新しいディスカッションを作成したりできます。</block>
-  <block id="ffa18fada5deeeb1e533786297855e7d" category="paragraph">[Create a Case]*機能を使用するには、最初にサポートに登録する必要があります。NetAppサポートサイトのクレデンシャルをワークロードファクトリログインに関連付けます。<block ref="d9fea24984986beabae03291c4b721de" category="inline-link-macro-rx"></block>です。</block>
-  <block id="e13a5649dfef3a1c76c4be8e463226d7" category="list-text">Workload Factory Consoleの右上で、*[ヘルプ]&gt;[サポート]*を選択します。</block>
-  <block id="ce638fcfafd4d79a49524062225d7fbc" category="paragraph">BlueXP  ワークロードファクトリおよびそのストレージソリューションとサービスに固有のテクニカルサポートを受けるには、サポート登録が必要です。BlueXP  コンソールからサポートに登録する必要があります。このコンソールは、ワークロードファクトリとは別のWebベースのコンソールです。</block>
-  <block id="2cbcc262b0a39ec19c5f69bffccb70fb" category="paragraph">サポートに登録しても、クラウドプロバイダのファイルサービスでNetAppのサポートは有効になりません。クラウドプロバイダのファイルサービス、そのインフラ、またはサービスを使用するソリューションに関連するテクニカルサポートについては、その製品のワークロードファクトリドキュメントの「困ったときは」を参照してください。</block>
   <block id="813011e2103649bb71f124adedcc10ea" category="sidebar">ブログとコミュニティ</block>
   <block id="dd490b81914dd945601e442a41cb4222" category="sidebar">NetAppコミュニティ</block>
-  <block id="abd0fe91ce589ecf3c7bad0543ccad16" category="sidebar">BlueXPのブログ</block>
-  <block id="ad203e818e0c9d7f42f1c260b33875f3" category="sidebar">クラウドに関する Web セミナー</block>
   <block id="514f1fc0ac0ff6e4200d3637146367f1" category="doc">権限に関する用語を更新</block>
   <block id="dac96c84baa92faab0eb342df5283a1b" category="section-title">2025年5月4日</block>
   <block id="1c88041df602722b072eab90c31d79ca" category="section-title">プロジェクトのスナップショットの作成</block>
   <block id="1370537941b9a464462bf9a14972eee6" category="paragraph">プロジェクトのスナップショットを作成するには、次の手順を実行します。</block>
-  <block id="4ead5e435cb4f2c7cf627b1d1e84c333" category="paragraph">ワークロード ファクトリのユーザー インターフェースとドキュメントでは、読み取り権限を示すために「読み取り専用」を使用し、自動化権限を示すために「読み取り/書き込み」を使用するようになりました。</block>
-  <block id="9d31d07638cfa37e022a93f50a24a37a" category="paragraph">3つの異なる動作モード（_基本_、_読み取り専用_、_読み取り/書き込み_）により、ワークロードファクトリーの内外を問わず、柔軟な導入オプションを提供します。_ワークロードファクトリの外部で使用するコードスニペットを使用して、ゼロトラストのIN_BASIC_MODEですぐに価値を得ることができます。読み取り専用_モードと_読み取り/書き込み_モードでは、信頼性を段階的に高めることで、付加価値を高めることができます。</block>
-  <block id="52170312a0c40a6c39ee9dda5284b4f0" category="paragraph">AWSアカウントにアクセスするためのクレデンシャルを追加することなく、_Basic_modeでワークロードファクトリを使用できます。_読み取り専用_ モードまたは _読み取り/書き込み_ モードのいずれかでワークロードファクトリーに AWS 認証情報を追加すると、ワークロードファクトリーのアカウントに、FSx for ONTAP ファイルシステムの作成と管理、および Builders プロジェクトのデプロイと管理に必要な権限が付与されます。</block>
-  <block id="07b92eb27d7b3c0fc0f57b352341acb5" category="list-text">読み取り/書き込み権限を持つ AWS 認証情報をワークロードファクトリーに追加する必要があります。つまり、ビルダーに対してワークロードファクトリーを _読み取り/書き込み_ モードで使用することになります。</block>
-  <block id="5e80379093f27293f5ebbde3a13ddc71" category="paragraph">現時点では、_基本_モードと_読み取り専用_モードの権限はサポートされていません。 <block ref="ced1a4827b1ea3c1da0273c3d73fdd46" category="inline-link-rx"></block></block>
   <block id="fc031ba945e09cb6053f39527ae4937f" category="doc">クローンサポート</block>
-  <block id="e0fa1f53117aa72ea1061c2daaead5bc" category="paragraph">BlueXP Workload Factory for Builders でプロジェクトのクローンを作成できるようになりました。プロジェクトのクローンを作成すると、Builders はスナップショットから、元のプロジェクトと同じ構成の新しいプロジェクトを作成します。クローン作成は、類似のプロジェクトを素早く作成したり、テスト目的で使用する場合に便利です。新しいプロジェクトのクローンは、Builders の指示に従ってマウントできます。</block>
-  <block id="d88d0821a38808f607bab21c2cc4cf9e" category="inline-link">ビルダープロジェクトの BlueXP ワークロード ファクトリーのバージョンを管理する</block>
-  <block id="bbdb933c88b694592079931541c31eb3" category="paragraph"><block ref="bbdb933c88b694592079931541c31eb3" category="inline-link-rx"></block></block>
   <block id="f3dffc1ab287638d7073208a231fa289" category="summary">スナップショットとクローンを使用して、Builders プロジェクトのバージョンを管理します。</block>
-  <block id="b066fd241c4e6e66ece7c7a4527218cf" category="inline-link">ワークロードファクトリーREST API</block>
-  <block id="00b8d5f676925ae3d9b3373616e27074" category="paragraph">ワークロードファクトリーからオンデマンドのスナップショットとクローンを直接作成することで、Buildersプロジェクトの異なるバージョンを操作できます。プロジェクトのスナップショットとクローンは、プロジェクトの作成時に関連付けられたファイルシステムに保存されます。また、 <block ref="5f3a8bb73f58d34352656d43a7f37086" category="inline-link-rx"></block> 。</block>
   <block id="527db32c9553673d65f35d38b044b7de" category="section-title">プロジェクトのクローンを作成する</block>
   <block id="9a9aa1b9cb93d04e42fe69259c5b4a7e" category="paragraph">以下の手順に従って、スナップショットから Builders プロジェクトのクローンを作成します。クローンを作成すると、クローンを格納するための新しい編集可能なボリュームが作成されます。</block>
   <block id="ffd0b63d4491cd8691ad26a9457b8f6a" category="list-text">プロジェクトページで、 <block ref="4dc533ba94e6ca8d1968a9d477e1cbce" category="inline-image-macro-rx" type="image"></block>クローンを作成するプロジェクトの。</block>
@@ -373,4 +288,94 @@
   <block id="c53c752e3fb8fda71f585d5e8721e833" category="paragraph">ワークロード ファクトリーによってプロジェクトの新しいクローンが作成され、そのクローンが [プロジェクト] ページに新しいプロジェクトとして表示されます。</block>
   <block id="f6db487abe903d447c5070f569416c3a" category="section-title">2025年6月16日</block>
   <block id="adbb6bf856639e7a9dcf34b22158718f" category="sidebar">プロジェクトのバージョンを管理する</block>
+  <block id="323dd81fcb961ffe9d54fa99152c0e51" category="paragraph">BlueXP Workload Factory for Builders はソフトウェア バージョンの使用とアクセスを簡素化し、カスタム ツールやスクリプトの必要性を排除します。これにより、開発プロセスに便利なワークスペースとして Perforce Helix Core と統合されたインスタント クローンとしてソフトウェア バージョンを使用できるようになるため、時間とリソースを節約できます。</block>
+  <block id="962abee1b74c5d5ab5f9bd0c47cbb068" category="paragraph">Workload Factory のユーザー インターフェースとドキュメントでは、読み取り権限を示すために「読み取り専用」を使用し、自動化権限を示すために「読み取り/書き込み」を使用するようになりました。</block>
+  <block id="2755dd60db288e29e6f06b54dc696d1e" category="paragraph">BlueXP Workload Factory for Builders でプロジェクトを複製できるようになりました。プロジェクトを複製すると、Builders はスナップショットから元のプロジェクトと同じ構成の新しいプロジェクトを作成します。クローン作成は、類似のプロジェクトをすばやく作成したり、テストしたりする場合に役立ちます。ビルダーの指示に従って、新しいプロジェクトのクローンをマウントできます。</block>
+  <block id="2c66253b5627d775e178720764bbf7bf" category="inline-link">BlueXP Workload Factory for Builders プロジェクトのバージョンを管理する</block>
+  <block id="5cfea31bf03490b6d93b9e2e79a99599" category="paragraph"><block ref="5cfea31bf03490b6d93b9e2e79a99599" category="inline-link-rx"></block></block>
+  <block id="2bbead322f2dd5c4a40fbd66537e304f" category="doc">BlueXP workload factoryがNetAppワークロードファクトリーに</block>
+  <block id="9c80606adc6065bc48c6d99fbb8c3f1d" category="paragraph">BlueXP は、データ インフラストラクチャの管理における役割をより適切に反映するために、名前が変更され、再設計されました。その結果、 BlueXP workload factoryの名前がNetAppワークロード ファクトリーに変更されました。</block>
+  <block id="971492a505365b895740e7ae6a7e5a70" category="paragraph">Codebox を使用すると、プロジェクトの作成とデータ保護の操作を自動化できます。  Codebox は、Workload Factory でサポートされているあらゆる操作を実行するためのコードを生成するのに役立つ、コードとしてのインフラストラクチャ (IaC) のコパイロットです。</block>
+  <block id="da5fff8c34009cf753687803ae77aec7" category="summary">NetApp Workload Factory for Builders のワークスペースは、プロジェクト スナップショットに基づいたプロジェクトの Perforce 表現です。ビルダー プロジェクトの一部としてワークスペースを作成できます。</block>
+  <block id="84dc79ee83ab84e9c21af5858c6ce1c1" category="paragraph">NetApp Workload Factory for Builders のワークスペースは、特定の時点におけるプロジェクトの Perforce 表現です。ワークスペースは、プロジェクト スナップショットをベースとして作成されます。  Builders プロジェクト内に新しいワークスペースを作成できます。  Perforce UI からワークスペースを作成できます。</block>
+  <block id="905278c1db6bd8497d1b33523cff6fc7" category="paragraph">Perforce UI 内に Workload Factory ログイン画面が表示されます。</block>
+  <block id="3016bef0785dbf8a30dcf950a617dad6" category="list-text">次のいずれかを使用してWorkload Factoryにログインします。<block ref="68ceec76279c6913cdee16884c2d813a" category="inline-link-macro-rx"></block> 。</block>
+  <block id="6f1aafe326c7d4f5983090513c9f458c" category="list-text">Builders ワークロード タイルで、*プロジェクトの作成* を選択します。</block>
+  <block id="3c6efe0ce159fb5b8ee4882bcf3ad973" category="summary">NetApp は、Workload Factory とそのクラウド サービスをさまざまな方法でサポートします。ナレッジベース (KB) 記事やコミュニティ フォーラムなど、広範な無料のセルフサポート オプションが 24 時間 365 日ご利用いただけます。サポート登録には、Webチケットによるリモートテクニカルサポートも含まれます。</block>
+  <block id="4435b263dd1a35bcd8dfda050db92b3b" category="paragraph">FSx for ONTAP、そのインフラストラクチャ、またはサービスを使用するソリューションに関連するテクニカル サポートについては、その製品の Workload Factory ドキュメントの「ヘルプの取得」を参照してください。</block>
+  <block id="359d8b16e442ffaa72e03c95fcd60448" category="paragraph"><block ref="359d8b16e442ffaa72e03c95fcd60448" category="inline-link-macro-rx"></block></block>
+  <block id="d935525f4850c4638cbf48ae53fb4686" category="paragraph">現在表示している Workload Factory のドキュメント。</block>
+  <block id="ba6274b9c9d1f81bb3a648fa289986b8" category="paragraph">Workload Factory ナレッジベースを検索して、問題のトラブルシューティングに役立つ記事を見つけます。</block>
+  <block id="7faef90df03399696ba9d4815b37171a" category="paragraph">Workload Factory コミュニティに参加して、進行中のディスカッションをフォローしたり、新しいディスカッションを作成したりしてください。</block>
+  <block id="a12ea39ddf1c98adfd7f751299705efa" category="paragraph">*ケースの作成*機能を使用するには、まずサポートに登録する必要があります。NetAppNetAppサイトの資格情報を Workload Factory ログインに関連付けます。<block ref="d9fea24984986beabae03291c4b721de" category="inline-link-macro-rx"></block> 。</block>
+  <block id="356c88ac4b0ec3f7689cc91f54701fef" category="list-text">Workload Factory コンソールの右上で、[ヘルプ] &gt; [サポート] を選択します。</block>
+  <block id="6e74b203173a9994c366c7e7a3cf4748" category="paragraph">このオプションを選択すると、新しいブラウザ タブでNetAppコンソールが開き、サポート ダッシュボードが読み込まれます。</block>
+  <block id="3f13dd54818447375c92bf35e0a35f00" category="paragraph">このエラーは、NSS アカウントとそれに関連付けられているレコード会社が、 NetAppコンソール アカウントのシリアル番号のレコード会社と同じではないことを意味している可能性があります (つまり、960xxxx) またはシステムのシリアル番号。次のいずれかのオプションを使用してサポートを求めることができます。</block>
+  <block id="289d2ab2d9b0e116790d035921c12b56" category="paragraph">アクティブなサポート ケースと解決済みのサポート ケースをNetAppコンソールから直接表示および管理できます。NSS アカウントおよび会社に関連付けられたケースを管理できます。</block>
+  <block id="f9a63cd3a07378e169c58addd5fdce8d" category="paragraph">このオプションを選択すると、 NetAppコンソールの新しいブラウザ タブが開き、サポート ダッシュボードが読み込まれます。</block>
+  <block id="785b440c0be1d853c5e2f4fb1f1ee2ab" category="list-text">*ケース管理*を選択し、プロンプトが表示されたら、NSS アカウントをNetAppコンソールに追加します。</block>
+  <block id="c80d8addb8aa8e8872bbc44894b077f3" category="paragraph">*ケース管理* ページには、 NetAppコンソール ユーザー アカウントに関連付けられている NSS アカウントに関連するオープン ケースが表示されます。これは、*NSS 管理* ページの上部に表示される NSS アカウントと同じです。</block>
+  <block id="9d81bbd35970e642cd152c2d7b884ad3" category="paragraph">NetApp Workload Factory for Builders Web UI は、P4V クライアント内で HTML タブとして表示されます。</block>
+  <block id="28026612d1d3cfc1279ce88e6ba43385" category="doc">NetApp Workload Factory for Builders の既知の制限事項</block>
+  <block id="e1b987749d4c714f724f775fc163ece1" category="paragraph">NetApp Workload Factory for Builders が正しく機能するには、オペレータ権限が必要です。</block>
+  <block id="69cbac2ea4c8d8135c47fa4129816ac9" category="summary">NetApp Workload Factory for Builders は、ソフトウェア ビルダー向けの迅速なビルド環境作成ツールです。</block>
+  <block id="81e8f46d6546f377175fe2f737bc744f" category="doc">NetApp Workload Factory for Buildersの詳細</block>
+  <block id="3c75100296ff980a8a9dbbe03f1992fc" category="paragraph">NetApp Workload Factory for Builders は、ソフトウェア ビルダー向けの迅速なビルド環境作成ツールです。これにより、個人開発環境の迅速なセットアップが可能になり、時間が節約され、開発者のセルフサービスが可能になるとともに、DevOps チームがインフラストラクチャを制御できるようになります。ビルダーを使用すると、ソフトウェア開発者は特殊なデータ ストレージや開発インフラストラクチャの理解を必要とせずに、ワークスペースをすばやく作成できます。</block>
+  <block id="153a8608fc8130abbd02de118db1d3cc" category="section-title">NetApp Workload Factory for Builders とは何ですか?</block>
+  <block id="b009b63050a2b4c75e03880e29d11e0b" category="paragraph">NetApp Workload Factory for Builders は、開発者がさまざまなバージョンのソフトウェアを管理および操作する方法を効率化するように設計されています。  Builders は Perforce Helix Core とシームレスに統合され、ソフトウェア バージョンの即時クローンを提供し、開発、QA、CI/CD プロセスにすぐに使用できるワークスペースを作成します。</block>
+  <block id="6ae8e58cb52cd45b321927bcb2961f4e" category="inline-link-macro">ワークロードファクトリーの概要</block>
+  <block id="1de2994a7e96b0f9f5ffc5fbf74c7cfe" category="paragraph">ワークロードファクトリーの詳細については、<block ref="74c54dbaee345ad32db577029257fe31" category="inline-link-macro-rx"></block> 。</block>
+  <block id="719c5a37d6697e474752aba28ee7ce33" category="section-title">NetApp Workload Factory for Buildersの機能</block>
+  <block id="f72ab1f76edac09b9e379212920d4a01" category="paragraph">NetApp Workload Factory for Builders は、次の機能を提供します。</block>
+  <block id="4f7eefbe2de22aca4f898d56772c8c9f" category="section-title">ワークロードファクトリーの動作モード</block>
+  <block id="7b3be34e841ef7654765950b44c0736d" category="paragraph">3 つの異なる動作モード (_基本_、_読み取り専用_、_読み取り/書き込み_) により、Workload Factory の内外での展開に柔軟なオプションが提供されます。  Workload Factory の外部で使用するためのコード スニペットを使用して、_基本_ モードでゼロ トラストの価値をすぐに得ることができます。  _読み取り専用_ モードと _読み取り/書き込み_ モードで増分信頼を使用して増分値を取得します。</block>
+  <block id="d7df29879844d570a3e64b343a7227e2" category="inline-link-macro">ワークロードファクトリーの動作モード</block>
+  <block id="dde084f0d745ae579f63b79d128d3cac" category="paragraph">詳細はこちら<block ref="006fa329b97a0e61c793bc816f297534" category="inline-link-macro-rx"></block> 。</block>
+  <block id="5354d1e9ecaabd928d4235d17bb92d9e" category="section-title">Workload Factory Codebox による自動化</block>
+  <block id="3b9355b880979c4a10f7d88ded288364" category="list-text">*Infrastructure-as-code のコパイロット*: Codebox は、開発者と DevOps が Workload Factory でサポートされているあらゆる操作を実行するためのコードを生成するのに役立つ Infrastructure-as-code (IaC) コパイロットです。</block>
+  <block id="889974e6a14e5a88ffedb993211543f6" category="paragraph">Workload Factory の Builders 機能の使用には料金はかかりません。</block>
+  <block id="d6da2947e900426b211aad5cbf3e7aad" category="paragraph">Workload Factory の Builders 機能を使用するために、 NetAppからの特別なライセンスは必要ありません。</block>
+  <block id="5948f3347ebc02ebc690227c059661e1" category="section-title">地域</block>
+  <block id="256c219dd4b8bf29c6df3866d15c5d3b" category="inline-link-macro">Workload Factory のビルダーのヘルプを取得する</block>
+  <block id="7a7c47cf8ef129a34a24c23143e25245" category="paragraph">Workload FactoryまたはWorkload Factoryアプリケーションとサービスに関する一般的な質問については、以下を参照してください。<block ref="10b6fc905c8d3ffb1731b1f3a132d41f" category="inline-link-macro-rx"></block> 。</block>
+  <block id="ca056c972b23517e96f25c9ddba99846" category="doc">NetApp Workload Factory for Builders に関する法的通知</block>
+  <block id="aeb31c9f8c311597856b129ab948b4e6" category="inline-link">NetAppワークロード ファクトリー</block>
+  <block id="55f7843f27571db97da76bdf68a76d22" category="paragraph"><block ref="55f7843f27571db97da76bdf68a76d22" category="inline-link-rx"></block></block>
+  <block id="aee6f8bed903be1fd0e588691dc83ee2" category="summary">Workload Factory for Databases で Microsoft SQL Server インスタンスを管理します。</block>
+  <block id="0e11752f51bf62184a1d93c99ce19266" category="paragraph">NetApp Workload Factory for Builders で Builders プロジェクトを管理して、各プロジェクトのコードとアーティファクトの管理方法を制御できます。</block>
+  <block id="e55e29e359599d9e8e2c9c6bba3c7299" category="list-text">*最大保持日数*: クローンを保持する最大日数を入力します。この日数が経過すると、Workload Factory はクローンを削除します。</block>
+  <block id="8398499fb5f1cc438be2e99d974df5cb" category="paragraph">次の手順に従って、 NetApp Workload Factory for Builders で作成された既存のプロジェクトを表示できます。</block>
+  <block id="3d784fb83da69a092542ad97e84229a1" category="paragraph-title"><block ref="58f667aaf05f87159670e12bd9bc076b" category="inline-image-macro-rx" type="image"></block>ワークロードファクトリーにログイン</block>
+  <block id="e3f4d5b3a0d16b68c0f95c7031bbab0f" category="inline-link">Workload Factoryでアカウントを設定する</block>
+  <block id="8af94ef3a55ab31e78f60c3968ecc4e3" category="paragraph">必要となるのは<block ref="c1e10d5d77d21feb199911d5a4450d55" category="inline-link-rx"></block>次のいずれかを使用してログインします<block ref="17b71e2884d56fdbadfe752689dbd4d6" category="inline-link-rx"></block>。</block>
+  <block id="5c8aebe77d27a4b2987620fd2f1b4d55" category="paragraph">AWS アカウントにアクセスするための認証情報を追加せずに、Workload Factory を _Basic_ モードで使用できます。  _読み取り専用_ モードまたは _読み取り/書き込み_ モードのいずれかで AWS 認証情報を Workload Factory に追加すると、FSx for ONTAPファイルシステムの作成と管理、および Builders プロジェクトのデプロイと管理に必要な権限が Workload Factory アカウントに付与されます。</block>
+  <block id="4fda2760a0269084f9489aed28ac5218" category="summary">NetApp Workload Factory for Builders の使用を開始する前に、Workload Factory と AWS が適切にセットアップされていることを確認してください。これには、AWS ログイン認証情報、デプロイされた FSx for ONTAPファイルシステムなどが含まれます。</block>
+  <block id="b036e8f8a9cdb0687eaed2951caa878b" category="list-text">読み取り/書き込み権限を持つ AWS 認証情報を Workload Factory に追加する必要があります。つまり、Builders では Workload Factory を _読み取り/書き込み_ モードで使用することになります。</block>
+  <block id="b6358992bb0152c2af9f3e2e315ef468" category="inline-link">Workload FactoryにAWS認証情報を追加する方法を学ぶ</block>
+  <block id="1d987effbb1b43fd5943601ad335d806" category="paragraph">現時点では、_基本_モードと_読み取り専用_モードの権限はサポートされていません。<block ref="83106366073f0e7e6a64705516568b5d" category="inline-link-rx"></block></block>
+  <block id="b334128403ed60ff931947907046e1f0" category="summary">NetAppテクニカル サポートでサポート ケースを開く前に、 NetAppサポート サイト アカウントを Workload Factory に追加し、サポートに登録する必要があります。</block>
+  <block id="42ae904dea03b603a09c8cbc59f1d93d" category="doc">NetApp Workload Factory for Builders のサポートに登録する</block>
+  <block id="3d9b602ae77ac6a4951ca31b05b6b54f" category="paragraph">NetApp Workload Factory とそのストレージ ソリューションおよびサービスに固有のテクニカル サポートを受けるには、サポート登録が必要です。Workload Factory とは別の Web ベースのコンソールであるNetAppコンソールからサポートに登録する必要があります。</block>
+  <block id="c552970fd4dc8118ba1806da596acad9" category="paragraph">サポートに登録しても、クラウド プロバイダー ファイル サービスに対するNetAppサポートは有効になりません。クラウド プロバイダーのファイル サービス、そのインフラストラクチャ、またはサービスを使用するソリューションに関連するテクニカル サポートについては、その製品の Workload Factory ドキュメントの「ヘルプの取得」を参照してください。</block>
+  <block id="eb803e55617f13b716b5e56642cce2b0" category="paragraph">アカウント ID サポート サブスクリプション ( NetAppコンソールの [サポート リソース] ページにある 20 桁の 960xxxxxxxxx シリアル番号) を登録すると、単一のサポート サブスクリプション ID として機能します。各NetAppアカウント レベルのサポート サブスクリプションを登録する必要があります。</block>
+  <block id="4cffd3c1dbf2f1038c01d18e7a860305" category="paragraph">登録すると、サポート チケットの開設やケースの自動生成などの機能が有効になります。登録は、以下の説明に従ってNetAppコンソールにNetAppサポート サイト (NSS) アカウントを追加することで完了します。</block>
+  <block id="f6c4a3ae75d6616126e6da8310ae7384" category="paragraph">サポートに登録し、サポート資格を有効にするには、アカウント内の 1 人のユーザーがNetAppサポート サイト アカウントをNetAppコンソール ログインに関連付ける必要があります。NetAppサポートに登録する方法は、 NetAppサポート サイト (NSS) アカウントをすでにお持ちかどうかによって異なります。</block>
+  <block id="f732375b4bc27328f202e3b10a957017" category="paragraph">NSS アカウントをお持ちのNetApp のお客様の場合は、 NetAppコンソールからサポートに登録するだけです。</block>
+  <block id="f65aaf10469eac2932fc53c6a37afb71" category="list-text">NetAppコンソール メニューから、*管理* を選択し、*資格情報* を選択します。</block>
+  <block id="9094354ffd09e4644caa0010edc66d24" category="paragraph">NetAppコンソール ログインにNetAppサポート サイト アカウントを関連づけていない場合、他のNetAppコンソール ユーザーには同じサポート登録ステータスが表示されません。ただし、これはNetAppアカウントがサポートに登録されていないことを意味するものではありません。アカウント内の 1 人のユーザーがこれらの手順を実行していれば、アカウントは登録済みになります。</block>
+  <block id="a8f62b208e5177a219f0b0d4ce88e0a9" category="paragraph">既存のNetApp顧客であり、既存のライセンスとシリアル番号を持っているものの、NSS アカウントを持っていない場合は、NSS アカウントを作成し、それをNetAppコンソール ログインに関連付ける必要があります。</block>
+  <block id="fb9b6bbcab5fb396a13f67594a0ba1ee" category="list-text">上記で使用したNetAppアカウントのシリアル番号 (960xxxx) を必ずシリアル番号フィールドにコピーしてください。これにより、アカウント処理が高速化されます。</block>
+  <block id="40eff8559acd41057187b6cb11fa1919" category="list-text">以下の手順を実行して、新しいNSSアカウントをNetAppコンソールログインに関連付けます。<block ref="2f3aba04ec49ee5f0573a6c80a1b9df2" category="inline-xref-macro-rx"></block> 。</block>
+  <block id="f335678326583cea28377216c5515221" category="paragraph">NetAppサポートサイトのアカウントを取得したら、以下の手順を実行して、アカウントをNetAppコンソールのログインに関連付けます。<block ref="2f3aba04ec49ee5f0573a6c80a1b9df2" category="inline-xref-macro-rx"></block> 。</block>
+  <block id="79b035027d4c9d62dd3bea80612915a7" category="doc">NetApp Workload Factory for Builders プロジェクトのバージョンを管理する</block>
+  <block id="0270aa16b7068d8fdfd9200b20cfc5ce" category="inline-link">ワークロードファクトリー REST API</block>
+  <block id="0868e3336e89d0753f4faeabc2c1b462" category="paragraph">Workload Factory からオンデマンドのスナップショットやクローンを直接作成して、Builders プロジェクトのさまざまなバージョンを操作します。プロジェクトのスナップショットとクローンは、プロジェクトの作成時にプロジェクトに関連付けられたファイルシステムに保存されます。スナップショットとクローンを管理するには、<block ref="fcbcfb6a9b5948c86224e0f3dc582c2b" category="inline-link-rx"></block> 。</block>
+  <block id="d3e4e4eeddf743f9d82a0c8532d7731c" category="summary">Workload Factory for Databases の新機能について学習します。</block>
+  <block id="a0043b89b5e4ba514b146fca8ca00c92" category="doc">NetApp Workload Factory for Builders の新機能</block>
+  <block id="1aa1b77f66da56cc3ba1f52039c12b31" category="paragraph">Workload Factory の Builders 機能の新機能について説明します。</block>
+  <block id="992efefab3dd15099f5eff3f904d8df4" category="section-title">2025年10月5日</block>
+  <block id="3efde4cbb4a0bf42d11d292b9ba2ebb9" category="sidebar">NetApp Workload Factory の FSx for ONTAPファイル システム ストレージ上でソフトウェア開発プロジェクトを作成および管理します。</block>
+  <block id="f44b610593adc80df8e04e489ec0c9ff" category="sidebar">NetApp Workload Factory for Builders ドキュメント</block>
+  <block id="3c031b939f6ec312ee601d021e7a6644" category="sidebar">NetAppコンソール</block>
+  <block id="cc58d3a9b2264c4fd8cb1d3f61b90bdc" category="sidebar">NetAppデータサービス</block>
 </blocks>
