@@ -100,8 +100,6 @@
   <block id="1eba71d64e6c5e410e558530711e835b" category="summary">このリリースの製品でサポートされていない、または正しく相互運用できないプラットフォーム、デバイス、または機能については、既知の制限事項が記載されています。これらの制限事項をよく確認してください。</block>
   <block id="482723983a4f2af954e36ff41e567451" category="doc">既知の制限事項</block>
   <block id="406b6743d6cb27b667d9600f28f51fe8" category="section-title">オペレータの権限が必要です</block>
-  <block id="acf699fcbcfc00b42704c6549f7573ef" category="paragraph">Buildersを使用すると、プロジェクトを簡単に作成し、ソフトウェア環境とその成果物を表すボリュームを割り当てることができます。ソフトウェアを更新すると、ボリュームのスナップショットを作成して、その時点のソフトウェアの状態をキャプチャできます。つまり、バージョン管理システムと再同期することなく、ソフトウェアのどのバージョンにも瞬時にアクセスできるため、貴重な時間とリソースを節約できます。</block>
-  <block id="69ced5671d5d5173c5ec8a09c78e6c22" category="paragraph">ONTAPのスナップショット機能とクローン機能を活用することで、Buildersは開発ワークフローを強化し、ソフトウェアの複数バージョンへの迅速なアクセスを可能にし、開発サイクルを短縮し、市場投入までの時間を短縮します。</block>
   <block id="81271ea88c556e646a83ae8cb6874621" category="list-text">プロジェクトの作成、編集、削除</block>
   <block id="235bfdfadd266ee4aaf8ed4ef7af3c9c" category="list-text">定義済みのソフトウェアバージョンのスナップショットを作成する</block>
   <block id="2b1f12fc65d9945253b8cdbd567854de" category="list-text">ワークスペースの作成と削除（クローンに基づく）</block>
@@ -124,7 +122,6 @@
   <block id="ecd96786b112acf6970d6aaf3be575ca" category="list-text">シークレットクラウド</block>
   <block id="151ef168e17772f7a361db78a0c86552" category="list-text">トップシークレットクラウド</block>
   <block id="20c404f3ca0633629eee9b1b4ccd6737" category="section-title">サポートを受ける</block>
-  <block id="da444b283df699667b2316206972bdfe" category="paragraph">Amazon FSx for NetApp ONTAP は、AWSファーストパーティの解決策 です。FSx for ONTAPファイルシステム、インフラ、または本サービスを使用する解決策に関する質問やテクニカルサポートの問題については、AWS管理コンソールのサポートセンターを使用してAWSに対するサポートケースをオープンしてください。「 FSX for ONTAP 」サービスと該当するカテゴリを選択します。AWS サポートケースの作成に必要な残りの情報を指定します。</block>
   <block id="30d965eef5ba25c6b9998ae38270b43e" category="doc">法的通知</block>
   <block id="e9c44bbfd795a5d63d74c6a77afee70d" category="paragraph">法的通知では、著作権に関する声明、商標、特許などにアクセスできます。</block>
   <block id="6016a2b341113bf496b719905398ecd2" category="section-title">著作権</block>
@@ -195,7 +192,6 @@
   <block id="0a900739ea1484f6a212a7ceda0d619c" category="paragraph">Buildersプロジェクトの作成を開始します。管理者とチームリーダーは、ビルダーを使用して、開発者チームのプロジェクトとワークスペースを管理できます。</block>
   <block id="06c2cea18679d64399783748fa367bdd" category="inline-image-macro">1つ</block>
   <block id="aada29daee1d64ed0fe907043855cb7e" category="inline-image-macro">2つ</block>
-  <block id="b36a952e38561cb86fdb6a473044fce0" category="paragraph-title"><block ref="54f425ce8d89f4ed6b8a546561af5d60" category="inline-image-macro-rx" type="image"></block> AWSのクレデンシャルと権限をアカウントに追加する</block>
   <block id="fb391f4cf6483b8b419032dc188bd9d8" category="inline-link">クレデンシャルと権限を追加する方法</block>
   <block id="c01367c7ec78f01defe37cab59b14851" category="paragraph"><block ref="d162e97fcdf643050da77419fb18d12e" category="inline-link-rx"></block>です。</block>
   <block id="ca8a2087e5557e317599344687a57391" category="inline-image-macro">3つ</block>
@@ -322,15 +318,10 @@
   <block id="81e8f46d6546f377175fe2f737bc744f" category="doc">NetApp Workload Factory for Buildersの詳細</block>
   <block id="3c75100296ff980a8a9dbbe03f1992fc" category="paragraph">NetApp Workload Factory for Builders は、ソフトウェア ビルダー向けの迅速なビルド環境作成ツールです。これにより、個人開発環境の迅速なセットアップが可能になり、時間が節約され、開発者のセルフサービスが可能になるとともに、DevOps チームがインフラストラクチャを制御できるようになります。ビルダーを使用すると、ソフトウェア開発者は特殊なデータ ストレージや開発インフラストラクチャの理解を必要とせずに、ワークスペースをすばやく作成できます。</block>
   <block id="153a8608fc8130abbd02de118db1d3cc" category="section-title">NetApp Workload Factory for Builders とは何ですか?</block>
-  <block id="b009b63050a2b4c75e03880e29d11e0b" category="paragraph">NetApp Workload Factory for Builders は、開発者がさまざまなバージョンのソフトウェアを管理および操作する方法を効率化するように設計されています。  Builders は Perforce Helix Core とシームレスに統合され、ソフトウェア バージョンの即時クローンを提供し、開発、QA、CI/CD プロセスにすぐに使用できるワークスペースを作成します。</block>
   <block id="6ae8e58cb52cd45b321927bcb2961f4e" category="inline-link-macro">ワークロードファクトリーの概要</block>
   <block id="1de2994a7e96b0f9f5ffc5fbf74c7cfe" category="paragraph">ワークロードファクトリーの詳細については、<block ref="74c54dbaee345ad32db577029257fe31" category="inline-link-macro-rx"></block> 。</block>
   <block id="719c5a37d6697e474752aba28ee7ce33" category="section-title">NetApp Workload Factory for Buildersの機能</block>
   <block id="f72ab1f76edac09b9e379212920d4a01" category="paragraph">NetApp Workload Factory for Builders は、次の機能を提供します。</block>
-  <block id="4f7eefbe2de22aca4f898d56772c8c9f" category="section-title">ワークロードファクトリーの動作モード</block>
-  <block id="7b3be34e841ef7654765950b44c0736d" category="paragraph">3 つの異なる動作モード (_基本_、_読み取り専用_、_読み取り/書き込み_) により、Workload Factory の内外での展開に柔軟なオプションが提供されます。  Workload Factory の外部で使用するためのコード スニペットを使用して、_基本_ モードでゼロ トラストの価値をすぐに得ることができます。  _読み取り専用_ モードと _読み取り/書き込み_ モードで増分信頼を使用して増分値を取得します。</block>
-  <block id="d7df29879844d570a3e64b343a7227e2" category="inline-link-macro">ワークロードファクトリーの動作モード</block>
-  <block id="dde084f0d745ae579f63b79d128d3cac" category="paragraph">詳細はこちら<block ref="006fa329b97a0e61c793bc816f297534" category="inline-link-macro-rx"></block> 。</block>
   <block id="5354d1e9ecaabd928d4235d17bb92d9e" category="section-title">Workload Factory Codebox による自動化</block>
   <block id="3b9355b880979c4a10f7d88ded288364" category="list-text">*Infrastructure-as-code のコパイロット*: Codebox は、開発者と DevOps が Workload Factory でサポートされているあらゆる操作を実行するためのコードを生成するのに役立つ Infrastructure-as-code (IaC) コパイロットです。</block>
   <block id="889974e6a14e5a88ffedb993211543f6" category="paragraph">Workload Factory の Builders 機能の使用には料金はかかりません。</block>
@@ -348,11 +339,9 @@
   <block id="3d784fb83da69a092542ad97e84229a1" category="paragraph-title"><block ref="58f667aaf05f87159670e12bd9bc076b" category="inline-image-macro-rx" type="image"></block>ワークロードファクトリーにログイン</block>
   <block id="e3f4d5b3a0d16b68c0f95c7031bbab0f" category="inline-link">Workload Factoryでアカウントを設定する</block>
   <block id="8af94ef3a55ab31e78f60c3968ecc4e3" category="paragraph">必要となるのは<block ref="c1e10d5d77d21feb199911d5a4450d55" category="inline-link-rx"></block>次のいずれかを使用してログインします<block ref="17b71e2884d56fdbadfe752689dbd4d6" category="inline-link-rx"></block>。</block>
-  <block id="5c8aebe77d27a4b2987620fd2f1b4d55" category="paragraph">AWS アカウントにアクセスするための認証情報を追加せずに、Workload Factory を _Basic_ モードで使用できます。  _読み取り専用_ モードまたは _読み取り/書き込み_ モードのいずれかで AWS 認証情報を Workload Factory に追加すると、FSx for ONTAPファイルシステムの作成と管理、および Builders プロジェクトのデプロイと管理に必要な権限が Workload Factory アカウントに付与されます。</block>
   <block id="4fda2760a0269084f9489aed28ac5218" category="summary">NetApp Workload Factory for Builders の使用を開始する前に、Workload Factory と AWS が適切にセットアップされていることを確認してください。これには、AWS ログイン認証情報、デプロイされた FSx for ONTAPファイルシステムなどが含まれます。</block>
   <block id="b036e8f8a9cdb0687eaed2951caa878b" category="list-text">読み取り/書き込み権限を持つ AWS 認証情報を Workload Factory に追加する必要があります。つまり、Builders では Workload Factory を _読み取り/書き込み_ モードで使用することになります。</block>
   <block id="b6358992bb0152c2af9f3e2e315ef468" category="inline-link">Workload FactoryにAWS認証情報を追加する方法を学ぶ</block>
-  <block id="1d987effbb1b43fd5943601ad335d806" category="paragraph">現時点では、_基本_モードと_読み取り専用_モードの権限はサポートされていません。<block ref="83106366073f0e7e6a64705516568b5d" category="inline-link-rx"></block></block>
   <block id="b334128403ed60ff931947907046e1f0" category="summary">NetAppテクニカル サポートでサポート ケースを開く前に、 NetAppサポート サイト アカウントを Workload Factory に追加し、サポートに登録する必要があります。</block>
   <block id="42ae904dea03b603a09c8cbc59f1d93d" category="doc">NetApp Workload Factory for Builders のサポートに登録する</block>
   <block id="3d9b602ae77ac6a4951ca31b05b6b54f" category="paragraph">NetApp Workload Factory とそのストレージ ソリューションおよびサービスに固有のテクニカル サポートを受けるには、サポート登録が必要です。Workload Factory とは別の Web ベースのコンソールであるNetAppコンソールからサポートに登録する必要があります。</block>
@@ -378,4 +367,15 @@
   <block id="f44b610593adc80df8e04e489ec0c9ff" category="sidebar">NetApp Workload Factory for Builders ドキュメント</block>
   <block id="3c031b939f6ec312ee601d021e7a6644" category="sidebar">NetAppコンソール</block>
   <block id="cc58d3a9b2264c4fd8cb1d3f61b90bdc" category="sidebar">NetAppデータサービス</block>
+  <block id="a355125c831ed4faa01bd3bc2f468d05" category="paragraph">NetApp Workload Factory for Builders は、開発者がさまざまなバージョンのソフトウェアを管理および操作する方法を効率化するように設計されています。Builders は Perforce Helix Core と連携して、ソフトウェア バージョンを即座に複製し、開発、QA、CI/CD 用のワークスペースを作成します。</block>
+  <block id="74902a1e35d38eec202f55325c1f00e2" category="paragraph">Builders を使用すると、プロジェクトを簡単に作成し、ソフトウェア環境とその成果物を表すボリュームを割り当てることができます。ソフトウェアを更新するときに、ボリュームのスナップショットを作成して、その時点でのソフトウェアの状態をキャプチャできます。再同期せずに任意のソフトウェア バージョンに即座にアクセスできるため、時間とリソースを節約できます。</block>
+  <block id="3c0111088732d1b39780b4028c4cfb7a" category="paragraph">NetApp ONTAPのスナップショット機能とクローン機能を使用することで、Builders はソフトウェアのさまざまなバージョンへのアクセスを高速化し、更新をより迅速に開発およびリリースできるようになります。</block>
+  <block id="d63f6bd7594c764e42de13a94ad6deed" category="paragraph">Amazon FSx for NetApp ONTAPは、AWS ファーストパーティソリューションです。サポートについては、AWS マネジメントコンソールのサポートセンターを使用してケースを開いてください。「FSx for ONTAP」とカテゴリを選択し、必要な情報を入力します。</block>
+  <block id="27c19be9febabd1e2fb82d7a39784f2d" category="paragraph-title"><block ref="54f425ce8d89f4ed6b8a546561af5d60" category="inline-image-macro-rx" type="image"></block>資格情報と権限を追加する</block>
+  <block id="1a2a34271660d68479742e2088763ce9" category="paragraph">ニーズに合わせて権限ポリシーを選択します。</block>
+  <block id="08e433eed9c7b8191b8a18059e64ecd2" category="paragraph">権限を付与しない場合は、Workload Factory for Builders を使用して、部分的に完了したコード サンプルをコピーできます。</block>
+  <block id="6218b2b818684ae90ec93f3106368355" category="paragraph">権限を付与することを選択した場合は、ビルダーや AI などのワークロード機能の選択や、必要な権限の IAM ポリシーの作成など、アカウントに認証情報を手動で追加する必要があります。</block>
+  <block id="513ddb41a234bd3020d5233349d41978" category="paragraph">NetApp Workload Factory for Builders を使用する前に、Workload Factory と AWS が適切にセットアップされていることを確認してください。これには、AWS ログイン認証情報、デプロイされた FSx for ONTAPファイルシステムなどが含まれます。</block>
+  <block id="c45d86a4185cef0bc3cadb7e6e9b46f4" category="paragraph">現時点では、_基本_モードと_読み取り専用_モードの権限はサポートされていません。</block>
+  <block id="83106366073f0e7e6a64705516568b5d" category="paragraph"><block ref="83106366073f0e7e6a64705516568b5d" category="inline-link-rx"></block></block>
 </blocks>

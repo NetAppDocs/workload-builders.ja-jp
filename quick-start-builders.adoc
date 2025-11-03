@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: quick-start-builders.html 
-keywords: requirements, Basic mode, Read-only mode, Read/Write mode 
+keywords: requirements, permissions 
 summary: データベースには、要件が異なる3つのモードがあります。 
 ---
 = ビルダーのクイックスタート
@@ -17,9 +17,15 @@ Buildersプロジェクトの作成を開始します。管理者とチームリ
 [role="quick-margin-para"]
 必要となるのは https://docs.netapp.com/us-en/workload-setup-admin/sign-up-saas.html["Workload Factoryでアカウントを設定する"^]次のいずれかを使用してログインします https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["コンソールエクスペリエンス"^]。
 
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["2つ"] AWSのクレデンシャルと権限をアカウントに追加する
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["2つ"]資格情報と権限を追加する
 [role="quick-margin-para"]
-AWS アカウントにアクセスするための認証情報を追加せずに、Workload Factory を _Basic_ モードで使用できます。  _読み取り専用_ モードまたは _読み取り/書き込み_ モードのいずれかで AWS 認証情報を Workload Factory に追加すると、FSx for ONTAPファイルシステムの作成と管理、および Builders プロジェクトのデプロイと管理に必要な権限が Workload Factory アカウントに付与されます。
+ニーズに合わせて権限ポリシーを選択します。
+
+[role="quick-margin-para"]
+権限を付与しない場合は、Workload Factory for Builders を使用して、部分的に完了したコード サンプルをコピーできます。
+
+[role="quick-margin-para"]
+権限を付与することを選択した場合は、ビルダーや AI などのワークロード機能の選択や、必要な権限の IAM ポリシーの作成など、アカウントに認証情報を手動で追加する必要があります。
 
 [role="quick-margin-para"]
 https://docs.netapp.com/us-en/workload-setup-admin/add-credentials.html["クレデンシャルと権限を追加する方法"^]です。
